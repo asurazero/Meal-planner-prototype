@@ -1,0 +1,46 @@
+This is the help section for beta Meal Planner app
+
+The VIEW MEALPLAN button will naturally let you view
+generated meal plans you have made using the app
+note that these cannot be printed from the app itself *yet
+but may be printed from the file system just by accessing the folder
+and the desired meal plan by file name
+MP1.text represents meal plan one and so on
+feel free to print them as needed and they will be formatted
+just the same as they are viewed in app
+
+The GENERATE button will be how you generate your meal plans
+there are many options here you can use to adjust the desired
+mealplan parameters.  You may even add your own scheduled meals
+that will be saved to the day of the week you choose
+there is only the option to add two of these days because
+if you needed to format your whole week for meals that
+you know are scheduled then why use this app at all?
+**IMPORTANT NOTE FOR GENERATION**
+DO NOT EXCEED 1 ENTREE AND 3 SIDES WHEN
+USING GENERATION IT WILL CRASH THE PROGRAM UNTIL
+I HAVE MADE SOME ADJUSTMENTS, ADDITIONALLY YOU MAY
+ONLY GENERATE MEAL PLANS UP TO ABOUT 30 DAYS SUCCESSFULLY
+THIS IS BY DESIGN AND IF YOU REQUIRE ADDITIONAL MEAL
+PLANNING, WELL YOU HAVE FIVE SAVE SLOTS DON'T YOU?
+
+The ADD MEAL ITEM button of course will allow you to add
+meal items of your choice to the category of your choice
+these will be saved accordingly and will stay in the database
+along with any others you decide to add
+
+ADD ITEMS FROM INTERNET button
+this will automatically pull items from the internet based
+on your selection, it can only pull new items as long as the
+website it pulls from has new items to pull, it currently
+has around 100ish recipes available to things like entrees
+at a given time, if you want more it updates periodically
+so try again at a later time
+
+TOOLS button
+this is where you access your extra tools from the app
+things like managing recipes and other useful extras
+
+
+
+

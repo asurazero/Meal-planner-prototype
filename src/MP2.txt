@@ -1,0 +1,390 @@
++-------------------------------+------------------------------------------+----------------------------------------+
+| Monday > breakfast            | lunch                                    | dinner                                 |
++===============================+==========================================+========================================+
+| Cheesecake Pancakes           | Kickin' Collard Greens                   | pork tenderloin                        |
+| Cinnamon Roll Monkey Bread    | buttery corn                             | Million Dollar Potato Salad            |
+| Sheet Pan Buttermilk Pancakes | Million Dollar Potato Salad              | alfredo sauce pasta                    |
+|                               | cheese sauce pasta                       | Copycat Chipotle Rice                  |
+|                               | Chef John's Chocolate Chip Pumpkin Bread | Reuben Crescent Rolls                  |
+|                               | --Salad--                                | --Salad--                              |
+|                               | Turkey Salad                             | Weeknight Skillet Slaw                 |
+|                               | --Dessert--                              | --Dessert--                            |
+|                               | Rhubarb Snickerdoodles                   | Peanut Butter Cottage Cheese Ice Cream |
++-------------------------------+------------------------------------------+----------------------------------------+
++-------------------------------+------------------------------+-----------------------------------------------+
+| Tuesday > breakfast           | lunch                        | dinner                                        |
++===============================+==============================+===============================================+
+| Sausage and Cheese Egg Boats  | Best Ever Cuban Sandwich     | ravioli                                       |
+| Easy Breakfast Tortilla Pizza | Candied Jalapeños            | corn casserole                                |
+| Baked Feta Eggs               | Smashed Broccoli with Cheese | Garlic Mashed Cauliflower                     |
+|                               | Sautéed Cabbage              | Gochujang Mayonnaise                          |
+|                               | Rotel Biscuit Bombs          | grilled cheese                                |
+|                               | --Salad--                    | --Salad--                                     |
+|                               | Cobb Salad                   | Grilled Radicchio and Avocado Salad with Zhug |
+|                               | --Dessert--                  | --Dessert--                                   |
+|                               | 3 Ingredient Ube Ice Cream   | Chocolate-Glazed Hazelnut Mousse Cake         |
++-------------------------------+------------------------------+-----------------------------------------------+
++---------------------------------------------------------+------------------------------+-----------------------------------------+
+| Wednesday > breakfast                                   | lunch                        | dinner                                  |
++=========================================================+==============================+=========================================+
+| Overnight Breakfast Bake with Ham Cheese and Croissants | Jalapeno Popper Pig Shots    | Sous Vide Maple Chipotle BBQ Pork Chops |
+| Chef John’s Tortilla de Patatas                         | Cottage Cheese Taco Dressing | twice baked potatoes                    |
+| Lemon Cheesecake Creme Brulee Croissants                | tater tot casserole          | Homemade Tomato Sauce                   |
+|                                                         | Lemon Tahini Dressing        | Crunchy Quick Refrigerator Dill Pickles |
+|                                                         | Eggnog Cinnamon Rolls        | Panettone                               |
+|                                                         | --Salad--                    | --Salad--                               |
+|                                                         | Waldorf Salad                | Bodacious Broccoli Salad                |
+|                                                         | --Dessert--                  | --Dessert--                             |
+|                                                         | The Viral Crookie            | Strawberry Cheesecake Cookies           |
++---------------------------------------------------------+------------------------------+-----------------------------------------+
++------------------------+-------------------------------------------------------------------------+----------------------------------+
+| Thursday > breakfast   | lunch                                                                   | dinner                           |
++========================+=========================================================================+==================================+
+| breakfast pizza        | beef stroganaff                                                         | philly cheese steak              |
+| Air Fryer Fried Eggs   | This Copycat Chipotle Honey Vinaigrette Tastes Just Like the Real Thing | potato cakes                     |
+| breakfast pizza        | Loaded Kimchi Fries                                                     | Crispy Tater Caesar Salad        |
+|                        | Calabrian Chili Orzo with Vegetables                                    | Gochujang BBQ Sauce              |
+|                        | Adjarian Khachapuri                                                     | Quick Whole Wheat Chapati        |
+|                        | --Salad--                                                               | --Salad--                        |
+|                        | Pasta Salad with Homemade Dressing                                      | Hearts of Palm and Avocado Salad |
+|                        | --Dessert--                                                             | --Dessert--                      |
+|                        | Chocolate-Glazed Hazelnut Mousse Cake                                   | "Espresso Brownies               |
++------------------------+-------------------------------------------------------------------------+----------------------------------+
++----------------------------------------+----------------------------------------------+----------------------------+
+| Friday > breakfast                     | lunch                                        | dinner                     |
++========================================+==============================================+============================+
+| breakfast pizza                        | Good New Orleans Creole Gumbo                | Cherry Cola Ribs           |
+| Uova in Purgatorio (Eggs in Purgatory) | Charred Cabbage Ginger and Sesame Slaw       | Gochujang BBQ Sauce        |
+| Bacon Egg and Cheese Sandwich          | cowboy beans                                 | Broccoli Fritters          |
+|                                        | Homemade Caesar Dressing                     | Air Fryer Smashed Potatoes |
+|                                        | Plum and Pecan Muffins                       | dinner rolls               |
+|                                        | --Salad--                                    | --Salad--                  |
+|                                        | Cold Green Bean Salad with Lemon Vinaigrette | Coronation Chicken         |
+|                                        | --Dessert--                                  | --Dessert--                |
+|                                        | Chocolate Cherry Cheesecake                  | Vanilla Crème Brûlée       |
++----------------------------------------+----------------------------------------------+----------------------------+
++----------------------------------------+-----------------------------------------+---------------------------------------+
+| Saturday > breakfast                   | lunch                                   | dinner                                |
++========================================+=========================================+=======================================+
+| Chilaquiles with Homemade Tomato Sauce | Sous Vide Maple Chipotle BBQ Pork Chops | philly cheese steak                   |
+| Shakshuka for One                      | Gochujang BBQ Sauce                     | twice baked potatoes                  |
+| Bacon Egg and Cheese Sandwich          | corn casserole                          | green bean casserole                  |
+|                                        | Easy No-Cook Pizza Sauce                | Lemon Tahini Dressing                 |
+|                                        | Plum and Pecan Muffins                  | Air Fryer Cinnamon Roll Bites         |
+|                                        | --Salad--                               | --Salad--                             |
+|                                        | Perfect Summer Fruit Salad              | Caprese Salad with Balsamic Reduction |
+|                                        | --Dessert--                             | --Dessert--                           |
+|                                        | Wildflower Honey Cake                   | Strawberries and Cream Cupcakes       |
++----------------------------------------+-----------------------------------------+---------------------------------------+
++-------------------------------+---------------------------------------+---------------------------------------------------+
+| Sunday > breakfast            | lunch                                 | dinner                                            |
++===============================+=======================================+===================================================+
+| montecristo sandwiches        | Creamy Slow Cooker Potato Cheese Soup | Balsamic Braised Pork Tenderloins with Fresh Figs |
+| Perfect Pancakes              | Sweet and Spicy Baked Cauliflower     | Air Fryer Truffle Polenta Fries                   |
+| Easy Breakfast Tortilla Pizza | asparagus                             | Pesto Aioli                                       |
+|                               | broccoli parmesian                    | Parmesan-Crusted Roasted Cabbage                  |
+|                               | Strawberry Lemon Cheesecake Rolls     | Homemade Mini Cinnamon Rolls                      |
+|                               | --Salad--                             | --Salad--                                         |
+|                               | Ham Salad                             | Caprese Pasta with Thai Basil                     |
+|                               | --Dessert--                           | --Dessert--                                       |
+|                               | Bastani (Saffron and Rose Ice Cream)  | Country Peach Dumplings                           |
++-------------------------------+---------------------------------------+---------------------------------------------------+
++----------------------------------+------------------------------------------------------------------------+-----------------------------------------------------+
+| Monday > breakfast               | lunch                                                                  | dinner                                              |
++==================================+========================================================================+=====================================================+
+| Air Fryer Scrambled Eggs         | outback chicken                                                        | chicken wraps                                       |
+| breakfast burritos               | Green Goddess Pasta Salad Is the Only Thing We’re Bringing to Potlucks | Skillet-Roasted Radishes with Mint Gremolata        |
+| Strawberry Rhubarb Drop Biscuits | asparagus                                                              | chicken casserole                                   |
+|                                  | Homemade Tomato Sauce                                                  | roasted broccoli and cauliflower                    |
+|                                  | Grandma's Best Zucchini Bread                                          | Eggnog Cinnamon Rolls                               |
+|                                  | --Salad--                                                              | --Salad--                                           |
+|                                  | Green Goddess Salad                                                    | Pasta Salad with Homemade Dressing                  |
+|                                  | --Dessert--                                                            | --Dessert--                                         |
+|                                  | 4-Ingredient Slow Cooker Peach Cobbler                                 | Perfect Key Lime Pie with Coconut Rum Whipped Cream |
++----------------------------------+------------------------------------------------------------------------+-----------------------------------------------------+
++----------------------------+-------------------------------------------+-------------------------------------------------------------+
+| Tuesday > breakfast        | lunch                                     | dinner                                                      |
++============================+===========================================+=============================================================+
+| Crescent Breakfast Squares | Good New Orleans Creole Gumbo             | grilled chicken                                             |
+| french toast casserole     | mashed potatoes                           | butternut squash soufle                                     |
+| Peanut Butter Oatmeal      | Sugar Snap Peas with Peanut Dipping Sauce | sweet potato casserole                                      |
+|                            | spinach                                   | sweet potato casserole                                      |
+|                            | Gingerbread Cinnamon Rolls                | Strawberry Lemon Cheesecake Rolls                           |
+|                            | --Salad--                                 | --Salad--                                                   |
+|                            | Cobb Salad                                | Crispy Buffalo Potato Salad                                 |
+|                            | --Dessert--                               | --Dessert--                                                 |
+|                            | Espresso Brownies                         | "Quick 2-Ingredient Nutella Hotteok (Korean Sweet Pancakes) |
++----------------------------+-------------------------------------------+-------------------------------------------------------------+
++---------------------------------+----------------------------------------------+---------------------------------------------+
+| Wednesday > breakfast           | lunch                                        | dinner                                      |
++=================================+==============================================+=============================================+
+| Chilaquiles Breakfast Casserole | Ham and Split Pea Soup Recipe — A Great Soup | "Bacon-Wrapped Jalapeño Poppers             |
+| Sausage and Cheese Egg Boats    | sweet peas                                   | Sweet and Spicy Sweet Potato Bites          |
+| oatmeal                         | green beans                                  | butternut squash soufle                     |
+|                                 | "Lemon Orzo                                  | red beans and rice                          |
+|                                 | Adjarian Khachapuri                          | Hot Honey Butter Cream Cheese Stuffed Bagel |
+|                                 | --Salad--                                    | --Salad--                                   |
+|                                 | Perfect Summer Fruit Salad                   | Creamy Avocado Chicken Salad                |
+|                                 | --Dessert--                                  | --Dessert--                                 |
+|                                 | Rough Puff Pastry                            | oatmeal cookies                             |
++---------------------------------+----------------------------------------------+---------------------------------------------+
++---------------------------------+------------------------------+--------------------------------+
+| Thursday > breakfast            | lunch                        | dinner                         |
++=================================+==============================+================================+
+| Chorizo Breakfast Casserole     | roasted whole chicken        | Dill Pickle Pasta Salad        |
+| Chorizo Breakfast Casserole     | tomato sauce pasta           | squash casserole               |
+| Chilaquiles Breakfast Casserole | mashed potatoes              | Crispy Tater Caesar Salad      |
+|                                 | Garlic Mashed Cauliflower    | Easy Fermented Pickled Veggies |
+|                                 | Peanut Butter Banana Muffins | grilled cheese                 |
+|                                 | --Salad--                    | --Salad--                      |
+|                                 | Perfect Summer Fruit Salad   | Waldorf Salad                  |
+|                                 | --Dessert--                  | --Dessert--                    |
+|                                 | Strawberry Crunch Cake       | New York-Style Crumb Cake      |
++---------------------------------+------------------------------+--------------------------------+
++-----------------------------+-------------------------------------------------+-------------------------------+
+| Friday > breakfast          | lunch                                           | dinner                        |
++=============================+=================================================+===============================+
+| Croissant French Toast Bake | Lacinato Kale Salad with Warm Bacon Vinaigrette | spaghetti and meatballs       |
+| PB&J Stuffed French Toast   | Big Fat Fondant Potatoes                        | chicken pot pie               |
+| Croissant French Toast      | broccoli casserole                              | Rosemary Mashed Potatoes      |
+|                             | grilled corn on the cob                         | chicken pot pie               |
+|                             | Grandma's Best Zucchini Bread                   | Banana Bread Brownies         |
+|                             | --Salad--                                       | --Salad--                     |
+|                             | Caprese Salad with Balsamic Reduction           | Authentic German Potato Salad |
+|                             | --Dessert--                                     | --Dessert--                   |
+|                             | Strawberry Mousse Shooters                      | Peach Custard Pie             |
++-----------------------------+-------------------------------------------------+-------------------------------+
++---------------------------------------------------------+-------------------------------+---------------------------------+
+| Saturday > breakfast                                    | lunch                         | dinner                          |
++=========================================================+===============================+=================================+
+| Granola Cups                                            | Summer Meat Slaw              | smoked brisket                  |
+| Overnight Breakfast Bake with Ham Cheese and Croissants | potatoes au gratin            | Pesto Aioli                     |
+| Air Fryer Scrambled Eggs                                | Crispy Air Fryer Potato Bites | fondant potatoes                |
+|                                                         | Homemade Caesar Dressing      | Spinach Feta and Rice Casserole |
+|                                                         | Feta and Sardine Flatbread    | Banana Chocolate Chip Muffins   |
+|                                                         | --Salad--                     | --Salad--                       |
+|                                                         | Dad's Creamy Cucumber Salad   | Green Salad                     |
+|                                                         | --Dessert--                   | --Dessert--                     |
+|                                                         | Country Peach Dumplings       | layer brownies                  |
++---------------------------------------------------------+-------------------------------+---------------------------------+
++------------------------------------------+-----------------------------------------+----------------------------------------+
+| Sunday > breakfast                       | lunch                                   | dinner                                 |
++==========================================+=========================================+========================================+
+| french toast casserole                   | Baked Burger Dogs                       | Jalapeno Popper Potato Salad           |
+| Air Fryer Cherry Cream Cheese Croissants | Crunchy Quick Refrigerator Dill Pickles | Honey Roasted Beets                    |
+| Strawberries and Cream Oatmeal           | asparagus                               | Spinach Feta and Rice Casserole        |
+|                                          | cowboy beans                            | Smashed Broccoli with Cheese           |
+|                                          | Herby Ricotta Biscuits                  | Irish Soda Bread Scones                |
+|                                          | --Salad--                               | --Salad--                              |
+|                                          | Black Bean and Corn Salad               | Bodacious Broccoli Salad               |
+|                                          | --Dessert--                             | --Dessert--                            |
+|                                          | Wildflower Honey Cake                   | Salted Caramel Banana Ritz Icebox Cake |
++------------------------------------------+-----------------------------------------+----------------------------------------+
++------------------------------------------+------------------------------------------+----------------------------------------------+
+| Monday > breakfast                       | lunch                                    | dinner                                       |
++==========================================+==========================================+==============================================+
+| Flat Croissant with Nutella and Berries  | bbq ribs                                 | grilled porkchops                            |
+| Crescent Breakfast Squares               | butternut squash soufle                  | honey roasted carrots                        |
+| Lemon Cheesecake Creme Brulee Croissants | green bean casserole                     | Skillet-Roasted Radishes with Mint Gremolata |
+|                                          | Calabrian Chili Orzo with Vegetables     | Pesto Aioli                                  |
+|                                          | Chef John's Chocolate Chip Pumpkin Bread | Copycat Texas Roadhouse Rolls                |
+|                                          | --Salad--                                | --Salad--                                    |
+|                                          | Weeknight Skillet Slaw                   | Green Salad                                  |
+|                                          | --Dessert--                              | --Dessert--                                  |
+|                                          | Strawberry Crunch Cake                   | Rhubarb Snickerdoodles                       |
++------------------------------------------+------------------------------------------+----------------------------------------------+
++-----------------------------------+--------------------------------+-----------------------------------------------+
+| Tuesday > breakfast               | lunch                          | dinner                                        |
++===================================+================================+===============================================+
+| Tortilla Scrambled Egg and Cheese | "Dill Pickle Pasta Salad       | Chili-Bacon Cinnamon Rolls                    |
+| Baked Skillet Pancake             | butternut squash soufle        | Broccoli Fritters                             |
+| Baked Feta Eggs                   | Copycat In-N-Out Special Sauce | grilled corn on the cob                       |
+|                                   | spinach                        | Sauteed Red Cabbage                           |
+|                                   | Perfect Pan Pizza              | Thousand Layer Chocolate Brioche              |
+|                                   | --Salad--                      | --Salad--                                     |
+|                                   | Weeknight Skillet Slaw         | Grilled Radicchio and Avocado Salad with Zhug |
+|                                   | --Dessert--                    | --Dessert--                                   |
+|                                   | Bougatsa                       | Raspberry and Strawberry Buckle               |
++-----------------------------------+--------------------------------+-----------------------------------------------+
++------------------------------------------+--------------------------------------------+----------------------------------------------+
+| Wednesday > breakfast                    | lunch                                      | dinner                                       |
++==========================================+============================================+==============================================+
+| Bacon Egg and Cheese Sandwich            | Bacon Stuffed French Toast Sliders         | Sous Vide Maple Chipotle BBQ Pork Chops      |
+| Lemon Cheesecake Creme Brulee Croissants | roasted broccoli and cauliflower           | broccoli casserole                           |
+| Sausage and Cheese Egg Boats             | Loaded Kimchi Fries                        | green bean casserole                         |
+|                                          | butternut squash soufle                    | "Cucumber Salad with Labneh Za’atar and Mint |
+|                                          | Green Onion Garlic Naan Bread              | garlic bread                                 |
+|                                          | --Salad--                                  | --Salad--                                    |
+|                                          | Oregon Fall Salad                          | Cucumber Tomato Salad                        |
+|                                          | --Dessert--                                | --Dessert--                                  |
+|                                          | Perfect Cheesecake with Strawberry Topping | jello                                        |
++------------------------------------------+--------------------------------------------+----------------------------------------------+
++--------------------------+---------------------------------------------------+---------------------------+
+| Thursday > breakfast     | lunch                                             | dinner                    |
++==========================+===================================================+===========================+
+| Shakshuka for One        | Balsamic Braised Pork Tenderloins with Fresh Figs | soy honey porkchops       |
+| Perfect Pancakes         | Honey Roasted Beets                               | white rice                |
+| Orange French Toast Bake | honey roasted carrots                             | alfredo sauce pasta       |
+|                          | Cucumber Salad with Labneh Za’atar and Mint       | Pesto Aioli               |
+|                          | Homemade Mini Cinnamon Rolls                      | zuchhini bread            |
+|                          | --Salad--                                         | --Salad--                 |
+|                          | Black Bean and Corn Salad                         | Greek-Style Chicken Salad |
+|                          | --Dessert--                                       | --Dessert--               |
+|                          | Strawberry Oreo Cheesecake                        | Rhubarb Snickerdoodles    |
++--------------------------+---------------------------------------------------+---------------------------+
++----------------------------+---------------------------------------+----------------------------------------------+
+| Friday > breakfast         | lunch                                 | dinner                                       |
++============================+=======================================+==============================================+
+| oatmeal                    | chicken francaise                     | Ham and Split Pea Soup Recipe — A Great Soup |
+| Baked Yogurt Custard Toast | Spiced Roasted Okra with Mini Peppers | Air Fryer Smashed Potatoes                   |
+| montecristo sandwiches     | vegetable casserole                   | red beans and rice                           |
+|                            | broccoli casserole                    | twice baked potatoes                         |
+|                            | dinner rolls                          | Plum and Pecan Muffins                       |
+|                            | --Salad--                             | --Salad--                                    |
+|                            | Cucumber Tomato Salad                 | Carrot Raisin Salad                          |
+|                            | --Dessert--                           | --Dessert--                                  |
+|                            | One Bowl Blackberry Cobbler           | butterscotch cookies                         |
++----------------------------+---------------------------------------+----------------------------------------------+
++----------------------------+---------------------------------------------+---------------------------------+
+| Saturday > breakfast       | lunch                                       | dinner                          |
++============================+=============================================+=================================+
+| Waffle House-Style Waffles | chicken tortellini alfredo                  | grilled chicken                 |
+| eggs benedict              | Crispy Air Fryer Potato Bites               | "Lemon Orzo                     |
+| Air Fryer Fried Eggs       | Cucumber Salad with Labneh Za’atar and Mint | stuffed jalapenos               |
+|                            | grilled corn on the cob                     | Air Fryer Truffle Polenta Fries |
+|                            | Jalapeno Cheddar Cornbread Muffins          | mexican cornbread               |
+|                            | --Salad--                                   | --Salad--                       |
+|                            | Jamie's Cranberry Spinach Salad             | Jamie's Cranberry Spinach Salad |
+|                            | --Dessert--                                 | --Dessert--                     |
+|                            | banana nut muffins                          | brownies                        |
++----------------------------+---------------------------------------------+---------------------------------+
++--------------------------------+----------------------------+-----------------------------------------------------+
+| Sunday > breakfast             | lunch                      | dinner                                              |
++================================+============================+=====================================================+
+| Bacon Egg and Cheese Sandwich  | Homemade Lasagna           | philly cheese steak                                 |
+| Cinnamon Roll Pull-Apart Toast | Creamy Salsa Dressing      | parmesian stuffed mushrooms                         |
+| Chorizo Breakfast Casserole    | copper penny carrots       | Candied Jalapeños                                   |
+|                                | green beans                | Garlic Mashed Cauliflower                           |
+|                                | Rhubarb Almond Muffins     | How to Make Sourdough Bread with Levain             |
+|                                | --Salad--                  | --Salad--                                           |
+|                                | Carrot Raisin Salad        | Italian Pasta Salad                                 |
+|                                | --Dessert--                | --Dessert--                                         |
+|                                | Chocolate Chipless Cookies | Perfect Key Lime Pie with Coconut Rum Whipped Cream |
++--------------------------------+----------------------------+-----------------------------------------------------+
++---------------------------------+-----------------------------------+----------------------------------------------+
+| Monday > breakfast              | lunch                             | dinner                                       |
++=================================+===================================+==============================================+
+| Air Fryer Waffle Egg in a Hole  | One Pan Pasta with Bacon and Peas | hawaiian chicken                             |
+| stuffed crescents               | Honey Roasted Beets               | Skillet-Roasted Radishes with Mint Gremolata |
+| Chef John’s Tortilla de Patatas | sweet peas                        | Sauteed Red Cabbage                          |
+|                                 | corn pudding                      | Lemon Orzo                                   |
+|                                 | mexican cornbread                 | Parmesan Chive Biscuits                      |
+|                                 | --Salad--                         | --Salad--                                    |
+|                                 | Authentic Russian Salad 'Olivye'  | Caprese Pasta with Thai Basil                |
+|                                 | --Dessert--                       | --Dessert--                                  |
+|                                 | Bougatsa                          | red velvet cake                              |
++---------------------------------+-----------------------------------+----------------------------------------------+
++----------------------------+--------------------------------------+---------------------------------+
+| Tuesday > breakfast        | lunch                                | dinner                          |
++============================+======================================+=================================+
+| Cinnamon Roll Monkey Bread | chicken parmesian                    | brats and sauerkraut            |
+| cheese grits               | Cottage Cheese Taco Dressing         | Lemon Orzo                      |
+| Crêpes Suzette             | cheese sauce pasta                   | Air Fryer Truffle Polenta Fries |
+|                            | cowboy beans                         | alfredo sauce pasta             |
+|                            | Brioche Col Tuppo (Sicilian Brioche) | Reuben Crescent Rolls           |
+|                            | --Salad--                            | --Salad--                       |
+|                            | Classic Macaroni Salad               | Roasted Cauliflower Salad       |
+|                            | --Dessert--                          | --Dessert--                     |
+|                            | Easy Red White and Blue Trifle       | Country Peach Dumplings         |
++----------------------------+--------------------------------------+---------------------------------+
++------------------------------------------+-------------------------------------------------------------+-----------------------------------------------+
+| Wednesday > breakfast                    | lunch                                                       | dinner                                        |
++==========================================+=============================================================+===============================================+
+| Lemon Cheesecake Creme Brulee Croissants | Prosciutto-Wrapped Pork Tenderloin with Crispy Sage         | Japanese-Style Triple-Seared Steak            |
+| pancakes                                 | Air Fryer Smashed Potatoes                                  | stuffed jalapenos                             |
+| Chorizo Breakfast Casserole              | sweet potato casserole                                      | Candied Jalapeños                             |
+|                                          | tater tot casserole                                         | Lemon Tahini Dressing                         |
+|                                          | Grandma's Best Zucchini Bread                               | Orange Cinnamon Rolls                         |
+|                                          | --Salad--                                                   | --Salad--                                     |
+|                                          | Best Homemade Caesar Salad Dressing                         | Grilled Radicchio and Avocado Salad with Zhug |
+|                                          | --Dessert--                                                 | --Dessert--                                   |
+|                                          | "Quick 2-Ingredient Nutella Hotteok (Korean Sweet Pancakes) | Blender Chocolate Mousse                      |
++------------------------------------------+-------------------------------------------------------------+-----------------------------------------------+
++--------------------------------+--------------------------------------------------------------------+--------------------------------+
+| Thursday > breakfast           | lunch                                                              | dinner                         |
++================================+====================================================================+================================+
+| breakfast casserole            | I Made Trisha Yearwood's Charleston Cheese Dip and It's Dip Heaven | Strawberry Balsamic Pork Chops |
+| french toast casserole         | potato cakes                                                       | Million Dollar Potato Salad    |
+| Air Fryer Waffle Egg in a Hole | Instant Pot Leek Mashed Potatoes                                   | chicken casserole              |
+|                                | green bean casserole                                               | honey roasted carrots          |
+|                                | Peanut Butter Banana Muffins                                       | Green Onion Garlic Naan Bread  |
+|                                | --Salad--                                                          | --Salad--                      |
+|                                | Coronation Chicken                                                 | Delicious Egg Salad            |
+|                                | --Dessert--                                                        | --Dessert--                    |
+|                                | butterfinger cake                                                  | Bougatsa                       |
++--------------------------------+--------------------------------------------------------------------+--------------------------------+
++---------------------------------------------+----------------------------------------------+-------------------------------------------+
+| Friday > breakfast                          | lunch                                        | dinner                                    |
++=============================================+==============================================+===========================================+
+| Baked Breakfast Taquitos                    | brats and sauerkraut                         | grilled porkchops                         |
+| Breakfast Burrito with Potatoes and Chorizo | alfredo sauce pasta                          | Sugar Snap Peas with Peanut Dipping Sauce |
+| Tres Leches Pancakes                        | Skillet-Roasted Radishes with Mint Gremolata | asparagus                                 |
+|                                             | parmesian corn                               | tomato sauce pasta                        |
+|                                             | Pretzel Crust Pizza                          | Baked Apple Fritters                      |
+|                                             | --Salad--                                    | --Salad--                                 |
+|                                             | Perfect Summer Fruit Salad                   | California Spaghetti Salad                |
+|                                             | --Dessert--                                  | --Dessert--                               |
+|                                             | orange cake                                  | Sawdust Pie                               |
++---------------------------------------------+----------------------------------------------+-------------------------------------------+
++------------------------+--------------------------------------+-----------------------------------+
+| Saturday > breakfast   | lunch                                | dinner                            |
++========================+======================================+===================================+
+| Naked Eggs Benedict    | hawaiian chicken                     | outback chicken                   |
+| Mexican Oatmeal        | Microwave Mexican Rice               | potato cakes                      |
+| Coconut Overnight Oats | bacon wrapped asparagus              | Sweet and Spicy Baked Cauliflower |
+|                        | Honey Roasted Beets                  | Sweet and Spicy Baked Cauliflower |
+|                        | Crescent Roll Pretzels               | Copycat Texas Roadhouse Rolls     |
+|                        | --Salad--                            | --Salad--                         |
+|                        | Charred Red Cabbage and Carrot Salad | Waldorf Salad                     |
+|                        | --Dessert--                          | --Dessert--                       |
+|                        | layer brownies                       | Blender Chocolate Mousse          |
++------------------------+--------------------------------------+-----------------------------------+
++----------------------+-----------------------------------------+------------------------------------------------------------------------+
+| Sunday > breakfast   | lunch                                   | dinner                                                                 |
++======================+=========================================+========================================================================+
+| omelets              | Jalapeno Popper Pig Shots               | Bacon-Wrapped Cherries                                                 |
+| Perfect Pancakes     | mexican street corn                     | Spiced Roasted Okra with Mini Peppers                                  |
+| cheese grits         | Spinach Feta and Rice Casserole         | Creamy Salsa Dressing                                                  |
+|                      | Crunchy Quick Refrigerator Dill Pickles | Green Goddess Pasta Salad Is the Only Thing We’re Bringing to Potlucks |
+|                      | Fruit Pizza Chopped Bagel               | Orange Cinnamon Rolls                                                  |
+|                      | --Salad--                               | --Salad--                                                              |
+|                      | Greek Orzo Salad                        | Hearts of Palm and Avocado Salad                                       |
+|                      | --Dessert--                             | --Dessert--                                                            |
+|                      | Peach Custard Pie                       | Lemon Raspberry Cake                                                   |
++----------------------+-----------------------------------------+------------------------------------------------------------------------+
++----------------------------+---------------------------------------+----------------------------------------------+
+| Monday > breakfast         | lunch                                 | dinner                                       |
++============================+=======================================+==============================================+
+| Cheesecake Pancakes        | Creamy Slow Cooker Potato Cheese Soup | Bloody Mary Pork Tacos                       |
+| Baked Yogurt Custard Toast | asparagus                             | sweet peas                                   |
+| oatmeal                    | Creamy Salsa Dressing                 | Air Fryer Truffle Polenta Fries              |
+|                            | Ultimate Lowcountry Shrimp and Grits  | Roasted Asparagus with Hollandaise Sauce     |
+|                            | Rhubarb Almond Muffins                | Classic Glazed Doughnuts                     |
+|                            | --Salad--                             | --Salad--                                    |
+|                            | Crispy Buffalo Potato Salad           | Cold Green Bean Salad with Lemon Vinaigrette |
+|                            | --Dessert--                           | --Dessert--                                  |
+|                            | Vanilla Crème Brûlée                  | Balsamic Strawberries                        |
++----------------------------+---------------------------------------+----------------------------------------------+
++---------------------------------------------+------------------------------------+----------------------------+
+| Tuesday > breakfast                         | lunch                              | dinner                     |
++=============================================+====================================+============================+
+| breakfast burritos                          | Jalapeno Popper Potato Salad       | Calico Beans               |
+| Air Fryer Spinach Pepper and Feta Egg Bites | Lemon Orzo                         | Chili Oil Smashed Potatoes |
+| Shakshuka for One                           | Air Fryer Truffle Polenta Fries    | mexican street corn        |
+|                                             | Crispy Air Fryer Potato Bites      | potato cakes               |
+|                                             | Jalapeno Cheddar Cornbread Muffins | cheddar biscuits           |
+|                                             | --Salad--                          | --Salad--                  |
+|                                             | Three Bean Salad                   | Copycat KFC Coleslaw       |
+|                                             | --Dessert--                        | --Dessert--                |
+|                                             | Strawberry Mousse Shooters         | butterfinger cake          |
++---------------------------------------------+------------------------------------+----------------------------+

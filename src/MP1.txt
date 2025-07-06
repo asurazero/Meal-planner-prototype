@@ -1,0 +1,130 @@
++----------------------+-------------------------------------------------+-----------------------------------------+
+| Monday > breakfast   | lunch                                           | dinner                                  |
++======================+=================================================+=========================================+
+| breakfast burritos   | Apple Cider Pork Tenderloin With Sweet Potatoes | Pork Chops with Hatch Green Chili Sauce |
+| french toast         | tater tot casserole                             | asparagus                               |
+| breakfast burritos   | shepherds pie                                   | butternut squash soufle                 |
+|                      | squash casserole                                | dirty rice                              |
+|                      | hawaiian rolls                                  | cheddar biscuits                        |
+|                      | --Salad--                                       | --Salad--                               |
+|                      | potato salad                                    | potato salad                            |
+|                      | --Dessert--                                     | --Dessert--                             |
+|                      | oatmeal cookies                                 | pecan pie                               |
++----------------------+-------------------------------------------------+-----------------------------------------+
++-----------------------+-----------------------------+-----------------------------------------------+
+| Tuesday > breakfast   | lunch                       | dinner                                        |
++=======================+=============================+===============================================+
+| cheese grits          | Garlic and Citrus Mojo Pork | manwich                                       |
+| cheese grits          | brussel sprouts             | chicken casserole                             |
+| stuffed crescents     | sweet peas                  | diced red potatoes with cheese and bacon bits |
+|                       | buttery corn                | white rice                                    |
+|                       | garlic bread                | zuchhini bread                                |
+|                       | --Salad--                   | --Salad--                                     |
+|                       | potato salad                | potato salad                                  |
+|                       | --Dessert--                 | --Dessert--                                   |
+|                       | butterscotch pudding        | banana cream pie                              |
++-----------------------+-----------------------------+-----------------------------------------------+
++-------------------------+-----------------------------+----------------------------------+
+| Wednesday > breakfast   | lunch                       | dinner                           |
++=========================+=============================+==================================+
+| french toast            | BLT Egg Sliders             | Beef Miso Ramen                  |
+| oatmeal                 | potato cakes                | roasted broccoli and cauliflower |
+| breakfast pizza         | dirty rice                  | grilled corn on the cob          |
+|                         | roasted zucchini and squash | sweet peas                       |
+|                         | grilled cheese              | garlic bread                     |
+|                         | --Salad--                   | --Salad--                        |
+|                         | potato salad                | potato salad                     |
+|                         | --Dessert--                 | --Dessert--                      |
+|                         | reeses chip cookies         | blueberry muffins                |
++-------------------------+-----------------------------+----------------------------------+
++------------------------+----------------------------------+-----------------------------+
+| Thursday > breakfast   | lunch                            | dinner                      |
++========================+==================================+=============================+
+| pancakes               | Good New Orleans Creole Gumbo    | Fried Pork Chops            |
+| french toast           | cowboy beans                     | spinach                     |
+| breakfast burritos     | roasted broccoli and cauliflower | roasted zucchini and squash |
+|                        | roasted broccoli and cauliflower | twice baked potatoes        |
+|                        | mexican cornbread                | mexican cornbread           |
+|                        | --Salad--                        | --Salad--                   |
+|                        | potato salad                     | potato salad                |
+|                        | --Dessert--                      | --Dessert--                 |
+|                        | cinnamon rolls                   | red velvet cake             |
++------------------------+----------------------------------+-----------------------------+
++----------------------+-----------------------------------------------+-------------------------+
+| Friday > breakfast   | lunch                                         | dinner                  |
++======================+===============================================+=========================+
+| french toast         | Baked Ham and Cheese Sliders                  | hawaiian chicken        |
+| french toast         | sweet peas                                    | butternut squash soufle |
+| cheese grits         | grilled corn on the cob                       | sweet peas              |
+|                      | diced red potatoes with cheese and bacon bits | squash casserole        |
+|                      | dinner rolls                                  | garlic bread            |
+|                      | --Salad--                                     | --Salad--               |
+|                      | potato salad                                  | potato salad            |
+|                      | --Dessert--                                   | --Dessert--             |
+|                      | cheesecake                                    | brownies                |
++----------------------+-----------------------------------------------+-------------------------+
++------------------------+---------------------+-----------------------+
+| Saturday > breakfast   | lunch               | dinner                |
++========================+=====================+=======================+
+| montecristo sandwiches | chicken gnocchi     | Pulled Pork Casserole |
+| breakfast casserole    | mexican street corn | asparagus             |
+| cheese grits           | shepherds pie       | stuffed jalapenos     |
+|                        | potato cakes        | broccoli parmesian    |
+|                        | cheddar biscuits    | cheddar biscuits      |
+|                        | --Salad--           | --Salad--             |
+|                        | potato salad        | potato salad          |
+|                        | --Dessert--         | --Dessert--           |
+|                        | chocolate cake      | layer brownies        |
++------------------------+---------------------+-----------------------+
++----------------------+------------------------------------+----------------------------------+
+| Sunday > breakfast   | lunch                              | dinner                           |
++======================+====================================+==================================+
+| breakfast burritos   | Japanese-Style Triple-Seared Steak | bbq ribs                         |
+| cheese grits         | mashed potatoes                    | squash casserole                 |
+| breakfast pizza      | chicken casserole                  | corn casserole                   |
+|                      | broccoli parmesian                 | roasted broccoli and cauliflower |
+|                      | grilled cheese                     | cornbread                        |
+|                      | --Salad--                          | --Salad--                        |
+|                      | potato salad                       | potato salad                     |
+|                      | --Dessert--                        | --Dessert--                      |
+|                      | cinnamon rolls                     | chocolate pudding                |
++----------------------+------------------------------------+----------------------------------+
++------------------------+-----------------------------------------------+--------------------------+
+| Monday > breakfast     | lunch                                         | dinner                   |
++========================+===============================================+==========================+
+| montecristo sandwiches | Pulled Pork Casserole                         | Cheesy Bacon Slider Bake |
+| breakfast pizza        | potato cakes                                  | squash casserole         |
+| french toast casserole | diced red potatoes with cheese and bacon bits | broccoli casserole       |
+|                        | roasted broccoli and cauliflower              | shepherds pie            |
+|                        | cheddar biscuits                              | grilled cheese           |
+|                        | --Salad--                                     | --Salad--                |
+|                        | potato salad                                  | potato salad             |
+|                        | --Dessert--                                   | --Dessert--              |
+|                        | orange cake                                   | banana cream pie         |
++------------------------+-----------------------------------------------+--------------------------+
++-----------------------+--------------------------+------------------------------------------------------------+
+| Tuesday > breakfast   | lunch                    | dinner                                                     |
++=======================+==========================+============================================================+
+| oatmeal               | Prosciutto Plum Focaccia | Sheet Pan Balsamic Pork Tenderloin with Rainbow Vegetables |
+| cheese grits          | broccoli soup            | cheese sauce pasta                                         |
+| french toast          | parmesian corn           | red beans and rice                                         |
+|                       | collard greens           | fondant potatoes                                           |
+|                       | garlic bread             | grilled cheese                                             |
+|                       | --Salad--                | --Salad--                                                  |
+|                       | potato salad             | potato salad                                               |
+|                       | --Dessert--              | --Dessert--                                                |
+|                       | brownies                 | banana nut muffins                                         |
++-----------------------+--------------------------+------------------------------------------------------------+
++-------------------------+----------------------------+---------------------+
+| Wednesday > breakfast   | lunch                      | dinner              |
++=========================+============================+=====================+
+| eggs benedict           | chicken tortellini alfredo | "The Best Meatballs |
+| breakfast casserole     | potatoes au gratin         | corn on the cob     |
+| french toast            | parmesian corn             | potato cakes        |
+|                         | collard greens             | dirty rice          |
+|                         | hawaiian rolls             | mexican cornbread   |
+|                         | --Salad--                  | --Salad--           |
+|                         | potato salad               | potato salad        |
+|                         | --Dessert--                | --Dessert--         |
+|                         | chocolate cake             | layer brownies      |
++-------------------------+----------------------------+---------------------+

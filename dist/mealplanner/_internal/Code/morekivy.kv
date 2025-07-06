@@ -1,0 +1,2986 @@
+#:import Factory kivy.factory.Factory
+#popup area
+<EntreeLimitPop@Popup>
+    size_hint: 1, 0.3
+    auto_dismiss:False
+    title:"Invalid Range"
+    FloatLayout:
+        spacing:10
+        padding:100
+        orientation:"vertical"
+        Label:
+            text:"Can only enter a number between 7 and 30"
+            bold:True
+            font_size_hint:(.1,.1)
+            size_hint:(1,1)
+            pos_hint: {"center_x": .5, "center_y": .8}
+        Button:
+            size_hint:(.5,0.3)
+            pos_hint: {"center_x": .5, "center_y":.5 }
+            #post_hint:(15,10)
+            text:"Ok"
+            background_color:"#00FFCE"
+            on_release:root.dismiss()
+<SidesEntreesPop@Popup>
+    size_hint: 1, 0.3
+    auto_dismiss:False
+    title:"Invalid Selection"
+    FloatLayout:
+        spacing:10
+        padding:100
+        orientation:"vertical"
+        Label:
+            text:"You can have up to 1 entree and 3 sides"
+            bold:True
+            font_size_hint:(.1,.1)
+            size_hint:(1,1)
+            pos_hint: {"center_x": .5, "center_y": .8}
+        Button:
+            size_hint:(.5,0.3)
+            pos_hint: {"center_x": .5, "center_y":.5 }
+            #post_hint:(15,10)
+            text:"Ok"
+            background_color:"#00FFCE"
+            on_release:root.dismiss()
+<WebScrapeLimitPop@Popup>
+    size_hint: 1, 0.3
+    auto_dismiss:False
+    title:"Invalid Selection"
+    FloatLayout:
+        spacing:10
+        padding:100
+        orientation:"vertical"
+        Label:
+            text:"You can only scrape up to 100 items at a time"
+            bold:True
+            font_size_hint:(.1,.1)
+            size_hint:(1,1)
+            pos_hint: {"center_x": .5, "center_y": .8}
+        Button:
+            size_hint:(.5,0.3)
+            pos_hint: {"center_x": .5, "center_y":.5 }
+            #post_hint:(15,10)
+            text:"Ok"
+            background_color:"#00FFCE"
+            on_release:root.dismiss()
+<WebScrapeReportPop@Popup>
+    scraperpt:scraperpt
+    size_hint: 1, 0.3
+    auto_dismiss:False
+    title:"Invalid Selection"
+    FloatLayout:
+        spacing:10
+        padding:100
+        orientation:"vertical"
+        Label:
+            id:scraperpt
+            text:"You can only scrape up to 100 items at a time"
+            bold:True
+            font_size_hint:(.1,.1)
+            size_hint:(1,1)
+            pos_hint: {"center_x": .5, "center_y": .8}
+        Button:
+            size_hint:(.5,0.3)
+            pos_hint: {"center_x": .5, "center_y":.5 }
+            #post_hint:(15,10)
+            text:"Ok"
+            background_color:"#00FFCE"
+            on_release:root.dismiss()
+LoginWindow:
+
+<Label@Label+BackgroundColor>
+    background_color:"#000000"
+
+<LoginWindow>:
+    on_enter:(root.trigger_libraries())
+    BoxLayout:
+        spacing:20
+        padding:100
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv1.jpg"
+                pos:self.pos
+                size:self.size
+        Button:
+            size_hint:(1.,.2)
+            background_color:"#00FFCE"
+            font_size_hint:(0.1,0.1)
+            text:"View Meal Plans"
+            background_color:"#00FFCE"
+            on_press:
+                root.manager.current="MealCheck"
+                #allows change of transition
+                #root.manager.transition=
+
+
+        Button:
+            size_hint:(1.,.2)
+            background_color:"#00FFCE"
+            font_size_hint:(0.1,0.1)
+            text:"Generate New Meal Plan"
+            background_color:"#00FFCE"
+            on_press:
+                root.manager.current="Day Select"
+                #allows change of transition
+                #root.manager.transition=
+        Button:
+            size_hint:(1.,.2)
+            background_color:"#00FFCE"
+            font_size_hint:(0.1,0.1)
+            text:"Add New Meal Item"
+            background_color:"#00FFCE"
+            on_press:
+                root.manager.current="AddNewItem"
+                #allows change of transition
+                #root.manager.transition=
+        Button:
+            size_hint:(1.,.2)
+            background_color:"#00FFCE"
+            font_size_hint:(0.1,0.1)
+            text:"Pull New Meals From Internet"
+            background_color:"#00FFCE"
+            on_press:
+                root.manager.current="WebScraperConfig"
+                #allows change of transition
+                #root.manager.transition=
+        Button:
+            size_hint:(1.,.2)
+            background_color:"#00FFCE"
+            font_size_hint:(0.1,0.1)
+            text:"Tools"
+            background_color:"#00FFCE"
+            on_press:
+                root.manager.current="Tools"
+                #allows change of transition
+                #root.manager.transition=
+        Button:
+            size_hint:(1.,.2)
+            background_color:"#00FFCE"
+            font_size_hint:(0.1,0.1)
+            text:"Help"
+            background_color:"#00FFCE"
+            on_press:
+                root.manager.current="HelpScreen"
+                #allows change of transition
+                #root.manager.transition=
+<Tools>:
+    BoxLayout:
+        spacing:20
+        padding:100
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv1.jpg"
+                pos:self.pos
+                size:self.size
+        Button:
+            size_hint:(1.,.2)
+            background_color:"#00FFCE"
+            font_size_hint:(0.1,0.1)
+            text:"Stats"
+            background_color:"#00FFCE"
+            on_press:
+                root.manager.current="Tools"
+        Button:
+            size_hint:(1.,.2)
+            background_color:"#00FFCE"
+            font_size_hint:(0.1,0.1)
+            text:"Upcoming Feature"
+            background_color:"#00FFCE"
+            on_press:
+                root.manager.current="Tools"
+        Button:
+            size_hint:(1.,.2)
+            background_color:"#00FFCE"
+            font_size_hint:(0.1,0.1)
+            text:"Upcoming Feature"
+            background_color:"#00FFCE"
+            on_press:
+                root.manager.current="Tools"
+        Button:
+            size_hint:(1.,.2)
+            background_color:"#00FFCE"
+            font_size_hint:(0.1,0.1)
+            text:"Debug"
+            background_color:"#00FFCE"
+            on_press:
+                root.manager.current="Tools"
+        Button:
+            size_hint:(1.,.2)
+            background_color:"#00FFCE"
+            font_size_hint:(0.1,0.1)
+            text:"Popup Test"
+            background_color:"#00FFCE"
+            on_release:Factory.EntreeLimitPop().open()
+
+
+        Button:
+            size_hint:(1.,.2)
+            background_color:"#00FFCE"
+            font_size_hint:(0.1,0.1)
+            text:"Back"
+            background_color:"#00FFCE"
+            on_press:
+                root.manager.current="StartScreen"
+
+
+
+
+<HelpScreen>
+    on_enter:(root.displaytxt1())
+    textview:textview
+    orientation:"vertical"
+    size:.1,.1
+    ScrollView:
+        canvas.before:
+            Color:
+                rgba:(0,0,0,1)
+            Rectangle:
+                pos:self.pos
+                size:self.size
+        Label:
+            markup:True
+            id:textview
+            background_color:"#00FFCE"
+            text:""""""
+            bold:True
+            #font_size:11
+            text_size:self.width,None
+            size_hint_y:None
+            height: max(self.texture_size[1],self.parent.height)
+            size_x:.5
+            do_scroll_y:True
+            do_scroll_x:True
+            valign:"top"
+            halign:"center"
+    Button:
+        size_hint:(1.,0.1)
+        #post_hint:(1,1)
+        text:"Back"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="StartScreen"
+
+<WebScraperConfig>
+    #on_enter:(root.prep_libraries())
+    scraped_item_ent:scraped_item_ent
+    scraped_item_side:scraped_item_side
+    scraped_item_dess:scraped_item_dess
+    scraped_item_brd:scraped_item_brd
+    scraped_item_brk:scraped_item_brk
+    scraped_item_fsh:scraped_item_fsh
+    scraped_item_sld:scraped_item_sld
+    scraped_item_mxf:scraped_item_mxf
+    BoxLayout:
+        spacing:15
+        padding:100
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv3.jpg"
+                pos:self.pos
+                size:self.size
+        Label:
+            text:"What Meal Item To Search and Add?"
+            bold:True
+            font_size_hint:(.1,.1)
+            size_hint:(1,1)
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        Button:
+            id:scraped_item_ent
+            size_hint:(1,0.5)
+            text:"Entree"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.set_scraper_ent(self)
+                root.manager.current="WebScraperQty"
+        Button:
+            id:scraped_item_side
+            size_hint:(1,0.5)
+            text:"Side"
+            background_color:"#00FFCE"
+            on_press:
+                root.set_scraper_side(self)
+                root.manager.current="WebScraperQty"
+        Button:
+            id:scraped_item_brd
+            size_hint:(1,0.5)
+            text:"Bread"
+            background_color:"#00FFCE"
+            on_press:
+                root.set_scraper_brd(self)
+                root.manager.current="WebScraperQty"
+        Button:
+            id:scraped_item_sld
+            size_hint:(1,0.5)
+            text:"Salad"
+            background_color:"#00FFCE"
+            on_press:
+                root.set_scraper_salad(self)
+                root.manager.current="WebScraperQty"
+        Button:
+            id:scraped_item_brk
+            size_hint:(1,0.5)
+            text:"Breakfast"
+            background_color:"#00FFCE"
+            on_press:
+                root.set_scraper_brk(self)
+                root.manager.current="WebScraperQty"
+        Button:
+            id:scraped_item_dess
+            size_hint:(1,0.5)
+            text:"Dessert"
+            background_color:"#00FFCE"
+            on_press:
+                root.set_scraper_dess(self)
+                root.manager.current="WebScraperQty"
+        Button:
+            id:scraped_item_mxf
+            size_hint:(1,0.5)
+            text:"Mexican Food"
+            background_color:"#00FFCE"
+            on_press:
+                root.set_scraper_mexfd(self)
+                root.manager.current="WebScraperQty"
+        Button:
+            id:scraped_item_fsh
+            size_hint:(1,0.5)
+            text:"Fish"
+            background_color:"#00FFCE"
+            on_press:
+                root.set_scraper_fish(self)
+                root.manager.current="WebScraperQty"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Back"
+            background_color:"#00FFCE"
+            on_press:
+                root.manager.current="StartScreen"
+
+<WebScraperQty>
+    scrape_amt:scrape_amt
+    BoxLayout:
+        spacing:200
+        padding:50
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv4.jpg"
+                pos:self.pos
+                size:self.size
+        Label:
+            text:"How Many New Meals To Find?"
+            bold:True
+            background_color:"#00FFCE"
+            font_size_hint:(.1,.1)
+            size_hint:(1.,1.)
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        TextInput:
+            id:scrape_amt
+            multiline:False
+            input_filter:"int"
+            size_hint:(.5,0.8)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        Button:
+            size_hint:(1,0.8)
+            text:"Confirm"
+            background_color:"#00FFCE"
+            on_press:
+                root.scraper_amount()
+                #allows change of transition
+
+<WebScraper>
+    on_enter:
+        root.webscrape_search()
+    progress_bar:progress_bar
+
+    MDFloatLayout:
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv3.jpg"
+                pos:self.pos
+                size:self.size
+        Label:
+            text:"Searching"
+            bold:True
+            font_size_hint:(.1,.1)
+            size_hint:(.8,.2)
+            pos_hint: {"center_x": .5, "center_y": .5}
+            canvas.before:
+                Color:
+                    rgba:0,0,0,1
+                Rectangle:
+                    size:self.size
+                    pos:self.pos
+        MDProgressBar
+            id:progress_bar
+            min:0
+            max:50
+            value: 1
+            #size_hint: .1, None
+            size_hint_x:.8
+            size_hint_y:.2
+            height:dp(48)
+            pos_hint: {"center_x": .5, "center_y": .5}
+            color:"#00FFCE"
+
+<AddNewItem>
+    startweekinput:startweekinput
+    BoxLayout:
+        spacing:15
+        padding:100
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv3.jpg"
+                pos:self.pos
+                size:self.size
+
+
+        Label:
+            text:"What Meal Item To Add? "
+            bold:True
+            font_size_hint:(.1,.1)
+            size_hint:(1,1)
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Entree"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+
+                root.manager.current="AddNewEntree"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Side"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+
+                root.manager.current="AddNewSide"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Bread Item"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+
+                root.manager.current="AddNewBrd"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Salad"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+
+                root.manager.current="AddNewSld"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Breakfast Item"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+
+                root.manager.current="AddNewBrk"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Dessert"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+
+                root.manager.current="AddNewDes"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Mexican Food"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+
+                root.manager.current="AddNewMex"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Fish Item"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+
+                root.manager.current="AddNewFsh"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Back"
+            background_color:"#00FFCE"
+            on_press:
+                root.manager.current="StartScreen"
+
+<AddNewEntree>
+    addentree:addentree
+    BoxLayout:
+        spacing:200
+        padding:50
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv4.jpg"
+                pos:self.pos
+                size:self.size
+        Label:
+            text:"Name A New Entree To Add"
+            bold:True
+            background_color:"#00FFCE"
+            font_size_hint:(.1,.1)
+            size_hint:(1.,1.)
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        TextInput:
+            id:addentree
+            multiline:False
+            size_hint:(.8,0.8)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        Button:
+            size_hint:(1,0.8)
+            text:"Confirm"
+            background_color:"#00FFCE"
+            on_press:
+                root.addentree_trigger()
+                root.manager.current="StartScreen"
+                #allows change of transition
+<AddNewSide>
+    addside:addside
+    BoxLayout:
+        spacing:200
+        padding:50
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv4.jpg"
+                pos:self.pos
+                size:self.size
+        Label:
+            text:"Name A New Side To Add"
+            bold:True
+            background_color:"#00FFCE"
+            font_size_hint:(.1,.1)
+            size_hint:(1.,1.)
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        TextInput:
+            id:addside
+            multiline:False
+            size_hint:(.8,0.8)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        Button:
+            size_hint:(1,0.8)
+            text:"Confirm"
+            background_color:"#00FFCE"
+            on_press:
+                root.addside_trigger()
+                root.manager.current="StartScreen"
+                #allows change of transition
+<AddNewBrd>
+    addbrd:addbrd
+    BoxLayout:
+        spacing:200
+        padding:50
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv4.jpg"
+                pos:self.pos
+                size:self.size
+        Label:
+            text:"Name A New Bread Item To Add"
+            bold:True
+            background_color:"#00FFCE"
+            font_size_hint:(.1,.1)
+            size_hint:(1.,1.)
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        TextInput:
+            id:addbrd
+            multiline:False
+            size_hint:(.8,0.8)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        Button:
+            size_hint:(1,0.8)
+            text:"Confirm"
+            background_color:"#00FFCE"
+            on_press:
+                root.addbrd_trigger()
+                root.manager.current="StartScreen"
+                #allows change of transition
+<AddNewSld>
+    addsld:addsld
+    BoxLayout:
+        spacing:200
+        padding:50
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv4.jpg"
+                pos:self.pos
+                size:self.size
+        Label:
+            text:"Name A New Salad To Add"
+            bold:True
+            background_color:"#00FFCE"
+            font_size_hint:(.1,.1)
+            size_hint:(1.,1.)
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        TextInput:
+            id:addsld
+            multiline:False
+            size_hint:(.8,0.8)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        Button:
+            size_hint:(1,0.8)
+            text:"Confirm"
+            background_color:"#00FFCE"
+            on_press:
+                root.addsld_trigger()
+                root.manager.current="StartScreen"
+                #allows change of transition
+<AddNewBrk>
+    addbrk:addbrk
+    BoxLayout:
+        spacing:200
+        padding:50
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv4.jpg"
+                pos:self.pos
+                size:self.size
+        Label:
+            text:"Name A New Breakfast Item To Add"
+            bold:True
+            background_color:"#00FFCE"
+            font_size_hint:(.1,.1)
+            size_hint:(1.,1.)
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        TextInput:
+            id:addbrk
+            multiline:False
+            size_hint:(.8,0.8)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        Button:
+            size_hint:(1,0.8)
+            text:"Confirm"
+            background_color:"#00FFCE"
+            on_press:
+                root.addbrk_trigger()
+                root.manager.current="StartScreen"
+                #allows change of transition
+
+<AddNewDes>
+    adddes:adddes
+    BoxLayout:
+        spacing:200
+        padding:50
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv4.jpg"
+                pos:self.pos
+                size:self.size
+        Label:
+            text:"Name A New Dessert To Add"
+            bold:True
+            background_color:"#00FFCE"
+            font_size_hint:(.1,.1)
+            size_hint:(1.,1.)
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        TextInput:
+            id:adddes
+            multiline:False
+            size_hint:(.8,0.8)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        Button:
+            size_hint:(1,0.8)
+            text:"Confirm"
+            background_color:"#00FFCE"
+            on_press:
+                root.adddes_trigger()
+                root.manager.current="StartScreen"
+                #allows change of transition
+<AddNewMex>
+    addmex:addmex
+    BoxLayout:
+        spacing:200
+        padding:50
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv4.jpg"
+                pos:self.pos
+                size:self.size
+        Label:
+            text:"Name A New Mexican Food Item To Add"
+            bold:True
+            background_color:"#00FFCE"
+            font_size_hint:(.1,.1)
+            size_hint:(1.,1.)
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        TextInput:
+            id:addmex
+            multiline:False
+            size_hint:(.8,0.8)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        Button:
+            size_hint:(1,0.8)
+            text:"Confirm"
+            background_color:"#00FFCE"
+            on_press:
+                root.addmex_trigger()
+                root.manager.current="StartScreen"
+                #allows change of transition
+<AddNewFsh>
+    addfsh:addfsh
+    BoxLayout:
+        spacing:200
+        padding:50
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv4.jpg"
+                pos:self.pos
+                size:self.size
+        Label:
+            text:"Name A Fish Item To Add"
+            bold:True
+            background_color:"#00FFCE"
+            font_size_hint:(.1,.1)
+            size_hint:(1.,1.)
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        TextInput:
+            id:addfsh
+            multiline:False
+            size_hint:(.8,0.8)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        Button:
+            size_hint:(1,0.8)
+            text:"Confirm"
+            background_color:"#00FFCE"
+            on_press:
+                root.addfsh_trigger()
+                root.manager.current="StartScreen"
+                #allows change of transition
+
+
+<PageOne>
+    daysinput:daysinput
+    BoxLayout:
+        spacing:50
+        padding:100
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv2.jpg"
+                pos:self.pos
+                size:self.size
+        Label:
+            text:"How Many Days To Generate Mealplan For? \n   (Must Be At Least 7)  "
+            bold:True
+            #background_color:"#00FFCE"
+            font_size_hint:(.2,.2)
+            size_hint:(1.,1.)
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+            halign:"center"
+
+
+        TextInput:
+            id:daysinput
+            multiline:False
+            input_filter:"int"
+            size_hint:(.5,0.3)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        Button:
+            size_hint:(1,0.5)
+            text:"Confirm"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.daycaller(daysinput)
+
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Back"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+
+                root.manager.current="StartScreen"
+
+<DayWeek>
+    startweekinput:startweekinput
+    BoxLayout:
+        spacing:15
+        padding:100
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv3.jpg"
+                pos:self.pos
+                size:self.size
+
+
+        Label:
+            text:"What Day Of The Week To Start? "
+            bold:True
+            font_size_hint:(1,1)
+            size_hint:(1,1)
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Monday"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.monday()
+                root.manager.current="EntSideGen"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Tuesday"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.tuesday()
+                root.manager.current="EntSideGen"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Wednesday"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.wednesday()
+                root.manager.current="EntSideGen"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Thursday"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.thursday()
+                root.manager.current="EntSideGen"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Friday"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.friday()
+                root.manager.current="EntSideGen"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Saturday"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.saturday()
+                root.manager.current="EntSideGen"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Sunday"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.sunday()
+                root.manager.current="EntSideGen"
+<EntSideGen>
+    entreequest:entreequest
+    sidequest:sidequest
+
+    BoxLayout:
+        spacing:50
+        padding:50
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv4.jpg"
+                pos:self.pos
+                size:self.size
+        Label:
+            text:"How Many Entrees Per Day? "
+            bold:True
+            background_color:"#00FFCE"
+            font_size_hint:(.1,.1)
+            size_hint:(1.,1.)
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        TextInput:
+            id:entreequest
+            multiline:False
+            input_filter:"int"
+            size_hint:(.5,0.3)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        Label:
+            background_color:"#00FFCE"
+            text:"How Many Sides Per Day?"
+            bold:True
+            font_size_hint:(10.,10.)
+            size_hint:(1,1)
+            pos:self.pos
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        TextInput:
+            id:sidequest
+            multiline:False
+            input_filter:"int"
+            size_hint:(.5,0.3)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        Button:
+            size_hint:(1,0.5)
+            text:"Confirm"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.entsidestrigger()
+
+<FishFrQuest>
+    BoxLayout:
+        spacing:15
+        padding:100
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv2.jpg"
+                pos:self.pos
+                size:self.size
+        Label:
+            text:"Use Fish Friday?"
+            bold:True
+            font_size_hint:(.1,.1)
+            size_hint:(1,1)
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        Button:
+            size_hint:(1,0.5)
+            text:"Yes"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.manager.current="FishFrYes"
+        Button:
+            size_hint:(1,0.5)
+            text:"No"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.manager.current="TacoTueQuest"
+<FishFrYes>
+    BoxLayout:
+        spacing:15
+        padding:100
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv1.jpg"
+                pos:self.pos
+                size:self.size
+        Label:
+            text:"What Meal(s) Should Fish Friday Be"
+            bold:True
+            font_size_hint:(.1,.1)
+            size_hint:(1,1)
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        Button:
+            size_hint:(1,0.5)
+            text:"Lunch"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.fishlunch()
+                root.manager.current="TacoTueQuest"
+        Button:
+            size_hint:(1,0.5)
+            text:"Dinner"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.fishdinner()
+                root.manager.current="TacoTueQuest"
+        Button:
+            size_hint:(1,0.5)
+            text:"All Day"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.fishallday()
+                root.manager.current="TacoTueQuest"
+<TacoTueQuest>
+    BoxLayout:
+        spacing:15
+        padding:100
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv3.jpg"
+                pos:self.pos
+                size:self.size
+        Label:
+            text:"Use Taco Tuesday?"
+            bold:True
+            font_size_hint:(.1,.1)
+            size_hint:(1,1)
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        Button:
+            size_hint:(1,0.5)
+            text:"Yes"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.manager.current="TacoTueYes"
+        Button:
+            size_hint:(1,0.5)
+            text:"No"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.manager.current="SetDaysQuest"
+<TacoTueYes>
+    BoxLayout:
+        spacing:15
+        padding:100
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv4.jpg"
+                pos:self.pos
+                size:self.size
+        Label:
+            text:"What Meal(s) Should Taco Tuesday Be?"
+            bold:True
+            font_size_hint:(.1,.1)
+            size_hint:(1,1)
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        Button:
+            size_hint:(1,0.5)
+            text:"Lunch"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.tacolunch()
+                root.manager.current="SetDaysQuest"
+        Button:
+            size_hint:(1,0.5)
+            text:"Dinner"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.tacodinner()
+                root.manager.current="SetDaysQuest"
+        Button:
+            size_hint:(1,0.5)
+            text:"All Day"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.tacoallday()
+                root.manager.current="SetDaysQuest"
+<SetDaysQuest>
+    BoxLayout:
+        spacing:15
+        padding:100
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv1.jpg"
+                pos:self.pos
+                size:self.size
+        Label:
+            text:"Should Some Meals Be On Set Days?"
+            bold:True
+            font_size_hint:(.1,.1)
+            size_hint:(1,1)
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        Button:
+            size_hint:(1,0.5)
+            text:"Yes"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.manager.current="SetDaysDay1"
+        Button:
+            size_hint:(1,0.5)
+            text:"No"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.manager.current="GeneratorScreen"
+<SetDaysDay1>
+    BoxLayout:
+        spacing:15
+        padding:100
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv3.jpg"
+                pos:self.pos
+                size:self.size
+        Label:
+            text:"What Day Is The Set Meal? "
+            bold:True
+            font_size_hint:(.1,.1)
+            size_hint:(1,1)
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Monday"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.monday()
+                root.manager.current="SetDaysMealL1"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Tuesday"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.tuesday()
+                root.manager.current="SetDaysMealL1"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Wednesday"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.wednesday()
+                root.manager.current="SetDaysMealL1"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Thursday"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.thursday()
+                root.manager.current="SetDaysMealL1"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Friday"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.friday()
+                root.manager.current="SetDaysMealL1"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Saturday"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.saturday()
+                root.manager.current="SetDaysMealL1"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Sunday"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.sunday()
+                root.manager.current="SetDaysMealL1"
+<SetDaysMealL1>
+    setentree1:setentree1
+    setside11:setside11
+    setside12:setside12
+    setside13:setside13
+    BoxLayout:
+        spacing:10
+        padding:50
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv4.jpg"
+                pos:self.pos
+                size:self.size
+        Label:
+            text:"Name An Entree For Lunch "
+            bold:True
+            background_color:"#00FFCE"
+            font_size_hint:(.1,.1)
+            size_hint:(1.,1.)
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        TextInput:
+            id:setentree1
+            multiline:False
+            size_hint:(.5,.6)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        Label:
+            background_color:"#00FFCE"
+            text:"Name A Side For Lunch"
+            bold:True
+            font_size_hint:(10.,10.)
+            size_hint:(1,1)
+            pos:self.pos
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        TextInput:
+            id:setside11
+            multiline:False
+            size_hint:(.5,.6)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        Label:
+            background_color:"#00FFCE"
+            text:"Name A 2nd Side For Lunch"
+            bold:True
+            font_size_hint:(10.,10.)
+            size_hint:(1,1)
+            pos:self.pos
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        TextInput:
+            id:setside12
+            multiline:False
+            size_hint:(.5,.6)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        Label:
+            background_color:"#00FFCE"
+            text:"Name A 3rd Side For Lunch"
+            bold:True
+            font_size_hint:(10.,10.)
+            size_hint:(1,1)
+            pos:self.pos
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        TextInput:
+            id:setside13
+            multiline:False
+            size_hint:(.5,.6)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        Button:
+            size_hint:(1,0.5)
+            text:"Confirm"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.setdaysmlL1func()
+                root.manager.current="SetDaysMealD1"
+<SetDaysMealD1>
+    setentreed1:setentreed1
+    setsided11:setsided11
+    setsided12:setsided12
+    setsided13:setsided13
+    BoxLayout:
+        spacing:10
+        padding:50
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv4.jpg"
+                pos:self.pos
+                size:self.size
+        Label:
+            text:"Name An Entree For Dinner "
+            bold:True
+            background_color:"#00FFCE"
+            font_size_hint:(.1,.1)
+            size_hint:(1.,1.)
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        TextInput:
+            id:setentreed1
+            multiline:False
+            size_hint:(.5,.6)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        Label:
+            background_color:"#00FFCE"
+            text:"Name A Side For Dinner"
+            bold:True
+            font_size_hint:(10.,10.)
+            size_hint:(1,1)
+            pos:self.pos
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        TextInput:
+            id:setsided11
+            multiline:False
+            size_hint:(.5,.6)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        Label:
+            background_color:"#00FFCE"
+            text:"Name A 2nd Side For Dinner"
+            bold:True
+            font_size_hint:(10.,10.)
+            size_hint:(1,1)
+            pos:self.pos
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        TextInput:
+            id:setsided12
+            multiline:False
+            size_hint:(.5,.6)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        Label:
+            background_color:"#00FFCE"
+            text:"Name A 3rd Side For Dinner"
+            bold:True
+            font_size_hint:(10.,10.)
+            size_hint:(1,1)
+            pos:self.pos
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        TextInput:
+            id:setsided13
+            multiline:False
+            size_hint:(.5,.6)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        Button:
+            size_hint:(1,0.5)
+            text:"Confirm"
+            background_color:"#00FFCE"
+            on_press:
+                root.manager.current="SetDaysQuest2"
+                #allows change of transition
+                root.setdaysmlD1func()
+<SetDaysQuest2>
+    BoxLayout:
+        spacing:15
+        padding:100
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv1.jpg"
+                pos:self.pos
+                size:self.size
+        Label:
+            text:"Should Another Meal Be On A Set Day?"
+            bold:True
+            font_size_hint:(.1,.1)
+            size_hint:(1,1)
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        Button:
+            size_hint:(1,0.5)
+            text:"Yes"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.manager.current="SetDaysDay2"
+        Button:
+            size_hint:(1,0.5)
+            text:"No"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.manager.current="GeneratorScreen"
+<SetDaysDay2>
+    BoxLayout:
+        spacing:10
+        padding:100
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv3.jpg"
+                pos:self.pos
+                size:self.size
+        Label:
+            text:"What Day Is The Set Meal? "
+            bold:True
+            font_size_hint:(.1,.1)
+            size_hint:(1,1)
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        Button:
+            id:startweekinput2
+            size_hint:(1,0.5)
+            text:"Monday"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.monday()
+                root.manager.current="SetDaysMealL2"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Tuesday"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.tuesday()
+                root.manager.current="SetDaysMealL2"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Wednesday"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.wednesday()
+                root.manager.current="SetDaysMealL2"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Thursday"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.thursday()
+                root.manager.current="SetDaysMealL2"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Friday"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.friday()
+                root.manager.current="SetDaysMealL2"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Saturday"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.saturday()
+                root.manager.current="SetDaysMealL2"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Sunday"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.sunday()
+                root.manager.current="SetDaysMealL2"
+<SetDaysMealL2>
+    setentree2:setentree2
+    setside21:setside21
+    setside22:setside22
+    setside23:setside23
+    BoxLayout:
+        spacing:15
+        padding:50
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv4.jpg"
+                pos:self.pos
+                size:self.size
+        Label:
+            text:"Name An Entree For Lunch "
+            bold:True
+            background_color:"#00FFCE"
+            font_size_hint:(.1,.1)
+            size_hint:(1.,1.)
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        TextInput:
+            id:setentree2
+            multiline:False
+            size_hint:(.5,.6)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        Label:
+            background_color:"#00FFCE"
+            text:"Name A Side For Lunch"
+            bold:True
+            font_size_hint:(10.,10.)
+            size_hint:(1,1)
+            pos:self.pos
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        TextInput:
+            id:setside21
+            multiline:False
+            size_hint:(.5,.6)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        Label:
+            background_color:"#00FFCE"
+            text:"Name A 2nd Side For Lunch"
+            bold:True
+            font_size_hint:(10.,10.)
+            size_hint:(1,1)
+            pos:self.pos
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        TextInput:
+            id:setside22
+            multiline:False
+            size_hint:(.5,.6)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        Label:
+            background_color:"#00FFCE"
+            text:"Name A 3rd Side For Lunch"
+            bold:True
+            font_size_hint:(10.,10.)
+            size_hint:(1,1)
+            pos:self.pos
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        TextInput:
+            id:setside23
+            multiline:False
+            size_hint:(.5,.6)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        Button:
+            size_hint:(1,0.5)
+            text:"Confirm"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.setdaysmlL2func()
+                root.manager.current="SetDaysMealD2"
+<SetDaysMealD2>
+    setentreed2:setentreed2
+    setsided21:setsided21
+    setsided22:setsided22
+    setsided23:setsided23
+    BoxLayout:
+        spacing:10
+        padding:50
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv4.jpg"
+                pos:self.pos
+                size:self.size
+        Label:
+            text:"Name An Entree For Dinner "
+            bold:True
+            background_color:"#00FFCE"
+            font_size_hint:(.1,.1)
+            size_hint:(1.,1.)
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        TextInput:
+            id:setentreed2
+            multiline:False
+            size_hint:(.5,.6)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        Label:
+            background_color:"#00FFCE"
+            text:"Name A Side For Dinner"
+            bold:True
+            font_size_hint:(10.,10.)
+            size_hint:(1,1)
+            pos:self.pos
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        TextInput:
+            id:setsided21
+            multiline:False
+            size_hint:(.5,.6)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        Label:
+            background_color:"#00FFCE"
+            text:"Name A 2nd Side For Dinner"
+            bold:True
+            font_size_hint:(10.,10.)
+            size_hint:(1,1)
+            pos:self.pos
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        TextInput:
+            id:setsided22
+            multiline:False
+            size_hint:(.5,.6)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        Label:
+            background_color:"#00FFCE"
+            text:"Name A 3rd Side For Dinner"
+            bold:True
+            font_size_hint:(10.,10.)
+            size_hint:(1,1)
+            pos:self.pos
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        TextInput:
+            id:setsided23
+            multiline:False
+            size_hint:(.5,.6)
+            pos_hint: {"center_x": .5, "center_y": .5}
+        Button:
+            size_hint:(1,0.5)
+            text:"Confirm"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.setdaysmlD2func()
+                root.manager.current="GeneratorScreen"
+<GeneratorScreen>
+    BoxLayout:
+        spacing:60
+        padding:120
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv1.jpg"
+                pos:self.pos
+                size:self.size
+        Label:
+            background_color:"#00FFCE"
+            text:""
+            bold:True
+            font_size_hint:(10.,10.)
+            size_hint:(1,1)
+            pos:self.pos
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        Button:
+            pos_hint: {"center_x": .5, "center_y": .5}
+            size_hint_x:.8
+            size_hint_y:.5
+            #size_hint:(.8,.1)
+            background_color:"#00FFCE"
+            font_size_hint:(0.1,0.1)
+            text:"Generate Plan"
+            background_color:"#00FFCE"
+            on_press:
+                root.trigger_gen()
+                #allows change of transition
+                #root.manager.transition=
+                root.manager.current="RecipeBookBuilder"
+        Label:
+            background_color:"#00FFCE"
+            text:""
+            bold:True
+            font_size_hint:(10.,10.)
+            size_hint:(1,1)
+            pos:self.pos
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+<RecipeBookBuilder>
+    on_enter:
+        root.recipe_b_args()
+    progress_bar2:progress_bar2
+
+    MDFloatLayout:
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv2.jpg"
+                pos:self.pos
+                size:self.size
+        Label:
+            text:"Building Recipe Book"
+            bold:True
+            font_size_hint:(.1,.1)
+            size_hint:(.8,.2)
+            pos_hint: {"center_x": .5, "center_y": .5}
+            canvas.before:
+                Color:
+                    rgba:0,0,0,1
+                Rectangle:
+                    size:self.size
+                    pos:self.pos
+        MDProgressBar
+            id:progress_bar2
+            min:0
+            max:50
+            value: 1
+            #size_hint: .1, None
+            size_hint_x:.8
+            size_hint_y:.2
+            height:dp(48)
+            pos_hint: {"center_x": .5, "center_y": .5}
+            color:"#00FFCE"
+<SaveSlotSelect>
+    startweekinput:startweekinput
+    BoxLayout:
+        spacing:15
+        padding:100
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv3.jpg"
+                pos:self.pos
+                size:self.size
+
+
+        Label:
+            text:"What Slot Will You Save Your Meal Plan? "
+            bold:True
+            font_size_hint:(.1,.1)
+            size_hint:(1,1)
+            canvas.before:
+                Color:
+                    rgba:0,0,0,1
+                Rectangle:
+                    size:self.size
+                    pos:self.pos
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Save Slot 1"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.save_functions1()
+                root.manager.current="StartScreen"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Save Slot 2"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.save_functions2()
+                root.manager.current="StartScreen"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Save Slot 3"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.save_functions3()
+                root.manager.current="StartScreen"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Save Slot 4"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.save_functions4()
+                root.manager.current="StartScreen"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Save Slot 5"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+                root.save_functions5()
+                root.manager.current="StartScreen"
+
+<RecipeBookOne>
+    on_enter:(root.prep_recipe_list())
+    textview:textview
+    orientation:"vertical"
+    size:.1,.1
+    ScrollView:
+        canvas.before:
+            Color:
+                rgba:(0,0,0,1)
+            Rectangle:
+                pos:self.pos
+                size:self.size
+        Label:
+            markup:True
+            id:textview
+            background_color:"#00FFCE"
+            text:""""""
+            bold:True
+            #font_size:11
+            text_size:self.width,None
+            size_hint_y:None
+            height: max(self.texture_size[1],self.parent.height)
+            size_x:.5
+            do_scroll_y:True
+            do_scroll_x:True
+            valign:"top"
+            halign:"center"
+    Button:
+        size_hint:(.3,0.1)
+        post_hint:(1,1)
+        text:"Prev"
+        background_color:"#00FFCE"
+        on_press:
+            root.page_view_previous()
+    Button:
+        size_hint:(.2,0.1)
+        pos_hint: {"center_x": .4, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Back"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="ViewMP1"
+    Button:
+        size_hint:(.2,0.1)
+        pos_hint: {"center_x": .6, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Search"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="RecipeBookOneSearch"
+    Button:
+        size_hint:(.3,0.1)
+        pos_hint: {"center_x": .85, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Next"
+        background_color:"#00FFCE"
+        on_press:
+            root.page_view_next()
+
+<RecipeBookOneSearch>
+    textview:textview
+    search:search
+    orientation:"vertical"
+    size:.1,.1
+    ScrollView:
+        canvas.before:
+            Color:
+                rgba:(0,0,0,1)
+            Rectangle:
+                pos:self.pos
+                size:self.size
+        Label:
+            markup:True
+            id:textview
+            background_color:"#00FFCE"
+            text:""""""
+            bold:True
+            #font_size:11
+            text_size:self.width,None
+            size_hint_y:None
+            height: max(self.texture_size[1],self.parent.height)
+            size_x:.5
+            do_scroll_y:True
+            do_scroll_x:True
+            valign:"top"
+            halign:"center"
+    Button:
+        size_hint:(.3,0.1)
+        post_hint:(1,1)
+        text:"Back"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="ViewMP1"
+    TextInput:
+        id:search
+        size_hint:(.4,0.1)
+        pos_hint: {"center_x": .5, "center_y": .05}
+        multiline:False
+
+    Button:
+        size_hint:(.3,0.1)
+        pos_hint: {"center_x": .85, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Search"
+        background_color:"#00FFCE"
+        on_press:root.search_rec()
+
+<RecipeBookOneSearchResults>
+    on_enter:(root.page_view_initial())
+    textview:textview
+    orientation:"vertical"
+    size:.1,.1
+    ScrollView:
+        canvas.before:
+            Color:
+                rgba:(0,0,0,1)
+            Rectangle:
+                pos:self.pos
+                size:self.size
+        Label:
+            markup:True
+            id:textview
+            background_color:"#00FFCE"
+            text:""""""
+            bold:True
+            #font_size:11
+            text_size:self.width,None
+            size_hint_y:None
+            height: max(self.texture_size[1],self.parent.height)
+            size_x:.5
+            do_scroll_y:True
+            do_scroll_x:True
+            valign:"top"
+            halign:"center"
+    Button:
+        size_hint:(.3,0.1)
+        post_hint:(1,1)
+        text:"Prev"
+        background_color:"#00FFCE"
+        on_press:
+            root.page_view_previous()
+    Button:
+        size_hint:(.2,0.1)
+        pos_hint: {"center_x": .4, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Back"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="ViewMP1"
+    Button:
+        size_hint:(.2,0.1)
+        pos_hint: {"center_x": .6, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Search"
+        background_color:"#00FFCE"
+        on_press:
+            root.clear_search()
+            root.manager.current="RecipeBookOneSearch"
+    Button:
+        size_hint:(.3,0.1)
+        pos_hint: {"center_x": .85, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Next"
+        background_color:"#00FFCE"
+        on_press:
+            root.page_view_next()
+
+<RecipeBookTwo>
+    on_enter:(root.prep_recipe_list())
+    textview:textview
+    orientation:"vertical"
+    size:.1,.1
+    ScrollView:
+        canvas.before:
+            Color:
+                rgba:(0,0,0,1)
+            Rectangle:
+                pos:self.pos
+                size:self.size
+        Label:
+            markup:True
+            id:textview
+            background_color:"#00FFCE"
+            text:""""""
+            bold:True
+            #font_size:11
+            text_size:self.width,None
+            size_hint_y:None
+            height: max(self.texture_size[1],self.parent.height)
+            size_x:.5
+            do_scroll_y:True
+            do_scroll_x:True
+            valign:"top"
+            halign:"center"
+    Button:
+        size_hint:(.3,0.1)
+        post_hint:(1,1)
+        text:"Prev"
+        background_color:"#00FFCE"
+        on_press:
+            root.page_view_previous()
+    Button:
+        size_hint:(.2,0.1)
+        pos_hint: {"center_x": .4, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Back"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="ViewMP1"
+    Button:
+        size_hint:(.2,0.1)
+        pos_hint: {"center_x": .6, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Search"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="RecipeBookTwoSearch"
+    Button:
+        size_hint:(.3,0.1)
+        pos_hint: {"center_x": .85, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Next"
+        background_color:"#00FFCE"
+        on_press:
+            root.page_view_next()
+
+<RecipeBookTwoSearch>
+    textview:textview
+    search:search
+    orientation:"vertical"
+    size:.1,.1
+    ScrollView:
+        canvas.before:
+            Color:
+                rgba:(0,0,0,1)
+            Rectangle:
+                pos:self.pos
+                size:self.size
+        Label:
+            markup:True
+            id:textview
+            background_color:"#00FFCE"
+            text:""""""
+            bold:True
+            #font_size:11
+            text_size:self.width,None
+            size_hint_y:None
+            height: max(self.texture_size[1],self.parent.height)
+            size_x:.5
+            do_scroll_y:True
+            do_scroll_x:True
+            valign:"top"
+            halign:"center"
+    Button:
+        size_hint:(.3,0.1)
+        post_hint:(1,1)
+        text:"Back"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="ViewMP2"
+    TextInput:
+        id:search
+        size_hint:(.4,0.1)
+        pos_hint: {"center_x": .5, "center_y": .05}
+        multiline:False
+
+    Button:
+        size_hint:(.3,0.1)
+        pos_hint: {"center_x": .85, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Search"
+        background_color:"#00FFCE"
+        on_press:root.search_rec()
+
+<RecipeBookTwoSearchResults>
+    on_enter:(root.page_view_initial())
+    textview:textview
+    orientation:"vertical"
+    size:.1,.1
+    ScrollView:
+        canvas.before:
+            Color:
+                rgba:(0,0,0,1)
+            Rectangle:
+                pos:self.pos
+                size:self.size
+        Label:
+            markup:True
+            id:textview
+            background_color:"#00FFCE"
+            text:""""""
+            bold:True
+            #font_size:11
+            text_size:self.width,None
+            size_hint_y:None
+            height: max(self.texture_size[1],self.parent.height)
+            size_x:.5
+            do_scroll_y:True
+            do_scroll_x:True
+            valign:"top"
+            halign:"center"
+    Button:
+        size_hint:(.3,0.1)
+        post_hint:(1,1)
+        text:"Prev"
+        background_color:"#00FFCE"
+        on_press:
+            root.page_view_previous()
+    Button:
+        size_hint:(.2,0.1)
+        pos_hint: {"center_x": .4, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Back"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="ViewMP2"
+    Button:
+        size_hint:(.2,0.1)
+        pos_hint: {"center_x": .6, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Search"
+        background_color:"#00FFCE"
+        on_press:
+            root.clear_search()
+            root.manager.current="RecipeBookTwoSearch"
+    Button:
+        size_hint:(.3,0.1)
+        pos_hint: {"center_x": .85, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Next"
+        background_color:"#00FFCE"
+        on_press:
+            root.page_view_next()
+<RecipeBookThree>
+    on_enter:(root.prep_recipe_list())
+    textview:textview
+    orientation:"vertical"
+    size:.1,.1
+    ScrollView:
+        canvas.before:
+            Color:
+                rgba:(0,0,0,1)
+            Rectangle:
+                pos:self.pos
+                size:self.size
+        Label:
+            markup:True
+            id:textview
+            background_color:"#00FFCE"
+            text:""""""
+            bold:True
+            #font_size:11
+            text_size:self.width,None
+            size_hint_y:None
+            height: max(self.texture_size[1],self.parent.height)
+            size_x:.5
+            do_scroll_y:True
+            do_scroll_x:True
+            valign:"top"
+            halign:"center"
+    Button:
+        size_hint:(.3,0.1)
+        post_hint:(1,1)
+        text:"Prev"
+        background_color:"#00FFCE"
+        on_press:
+            root.page_view_previous()
+    Button:
+        size_hint:(.2,0.1)
+        pos_hint: {"center_x": .4, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Back"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="ViewMP3"
+    Button:
+        size_hint:(.2,0.1)
+        pos_hint: {"center_x": .6, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Search"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="RecipeBookThreeSearch"
+    Button:
+        size_hint:(.3,0.1)
+        pos_hint: {"center_x": .85, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Next"
+        background_color:"#00FFCE"
+        on_press:
+            root.page_view_next()
+
+<RecipeBookThreeSearch>
+    textview:textview
+    search:search
+    orientation:"vertical"
+    size:.1,.1
+    ScrollView:
+        canvas.before:
+            Color:
+                rgba:(0,0,0,1)
+            Rectangle:
+                pos:self.pos
+                size:self.size
+        Label:
+            markup:True
+            id:textview
+            background_color:"#00FFCE"
+            text:""""""
+            bold:True
+            #font_size:11
+            text_size:self.width,None
+            size_hint_y:None
+            height: max(self.texture_size[1],self.parent.height)
+            size_x:.5
+            do_scroll_y:True
+            do_scroll_x:True
+            valign:"top"
+            halign:"center"
+    Button:
+        size_hint:(.3,0.1)
+        post_hint:(1,1)
+        text:"Back"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="ViewMP3"
+    TextInput:
+        id:search
+        size_hint:(.4,0.1)
+        pos_hint: {"center_x": .5, "center_y": .05}
+        multiline:False
+
+    Button:
+        size_hint:(.3,0.1)
+        pos_hint: {"center_x": .85, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Search"
+        background_color:"#00FFCE"
+        on_press:root.search_rec()
+
+<RecipeBookThreeSearchResults>
+    on_enter:(root.page_view_initial())
+    textview:textview
+    orientation:"vertical"
+    size:.1,.1
+    ScrollView:
+        canvas.before:
+            Color:
+                rgba:(0,0,0,1)
+            Rectangle:
+                pos:self.pos
+                size:self.size
+        Label:
+            markup:True
+            id:textview
+            background_color:"#00FFCE"
+            text:""""""
+            bold:True
+            #font_size:11
+            text_size:self.width,None
+            size_hint_y:None
+            height: max(self.texture_size[1],self.parent.height)
+            size_x:.5
+            do_scroll_y:True
+            do_scroll_x:True
+            valign:"top"
+            halign:"center"
+    Button:
+        size_hint:(.3,0.1)
+        post_hint:(1,1)
+        text:"Prev"
+        background_color:"#00FFCE"
+        on_press:
+            root.page_view_previous()
+    Button:
+        size_hint:(.2,0.1)
+        pos_hint: {"center_x": .4, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Back"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="ViewMP3"
+    Button:
+        size_hint:(.2,0.1)
+        pos_hint: {"center_x": .6, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Search"
+        background_color:"#00FFCE"
+        on_press:
+            root.clear_search()
+            root.manager.current="RecipeBookThreeSearch"
+    Button:
+        size_hint:(.3,0.1)
+        pos_hint: {"center_x": .85, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Next"
+        background_color:"#00FFCE"
+        on_press:
+            root.page_view_next()
+
+<RecipeBookFour>
+    on_enter:(root.prep_recipe_list())
+    textview:textview
+    orientation:"vertical"
+    size:.1,.1
+    ScrollView:
+        canvas.before:
+            Color:
+                rgba:(0,0,0,1)
+            Rectangle:
+                pos:self.pos
+                size:self.size
+        Label:
+            markup:True
+            id:textview
+            background_color:"#00FFCE"
+            text:""""""
+            bold:True
+            #font_size:11
+            text_size:self.width,None
+            size_hint_y:None
+            height: max(self.texture_size[1],self.parent.height)
+            size_x:.5
+            do_scroll_y:True
+            do_scroll_x:True
+            valign:"top"
+            halign:"center"
+    Button:
+        size_hint:(.3,0.1)
+        post_hint:(1,1)
+        text:"Prev"
+        background_color:"#00FFCE"
+        on_press:
+            root.page_view_previous()
+    Button:
+        size_hint:(.2,0.1)
+        pos_hint: {"center_x": .4, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Back"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="ViewMP4"
+    Button:
+        size_hint:(.2,0.1)
+        pos_hint: {"center_x": .6, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Search"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="RecipeBookFourSearch"
+    Button:
+        size_hint:(.3,0.1)
+        pos_hint: {"center_x": .85, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Next"
+        background_color:"#00FFCE"
+        on_press:
+            root.page_view_next()
+
+<RecipeBookFourSearch>
+    textview:textview
+    search:search
+    orientation:"vertical"
+    size:.1,.1
+    ScrollView:
+        canvas.before:
+            Color:
+                rgba:(0,0,0,1)
+            Rectangle:
+                pos:self.pos
+                size:self.size
+        Label:
+            markup:True
+            id:textview
+            background_color:"#00FFCE"
+            text:""""""
+            bold:True
+            #font_size:11
+            text_size:self.width,None
+            size_hint_y:None
+            height: max(self.texture_size[1],self.parent.height)
+            size_x:.5
+            do_scroll_y:True
+            do_scroll_x:True
+            valign:"top"
+            halign:"center"
+    Button:
+        size_hint:(.3,0.1)
+        post_hint:(1,1)
+        text:"Back"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="ViewMP4"
+    TextInput:
+        id:search
+        size_hint:(.4,0.1)
+        pos_hint: {"center_x": .5, "center_y": .05}
+        multiline:False
+
+    Button:
+        size_hint:(.3,0.1)
+        pos_hint: {"center_x": .85, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Search"
+        background_color:"#00FFCE"
+        on_press:root.search_rec()
+
+<RecipeBookFourSearchResults>
+    on_enter:(root.page_view_initial())
+    textview:textview
+    orientation:"vertical"
+    size:.1,.1
+    ScrollView:
+        canvas.before:
+            Color:
+                rgba:(0,0,0,1)
+            Rectangle:
+                pos:self.pos
+                size:self.size
+        Label:
+            markup:True
+            id:textview
+            background_color:"#00FFCE"
+            text:""""""
+            bold:True
+            #font_size:11
+            text_size:self.width,None
+            size_hint_y:None
+            height: max(self.texture_size[1],self.parent.height)
+            size_x:.5
+            do_scroll_y:True
+            do_scroll_x:True
+            valign:"top"
+            halign:"center"
+    Button:
+        size_hint:(.3,0.1)
+        post_hint:(1,1)
+        text:"Prev"
+        background_color:"#00FFCE"
+        on_press:
+            root.page_view_previous()
+    Button:
+        size_hint:(.2,0.1)
+        pos_hint: {"center_x": .4, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Back"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="ViewMP4"
+    Button:
+        size_hint:(.2,0.1)
+        pos_hint: {"center_x": .6, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Search"
+        background_color:"#00FFCE"
+        on_press:
+            root.clear_search()
+            root.manager.current="RecipeBookFourSearch"
+    Button:
+        size_hint:(.3,0.1)
+        pos_hint: {"center_x": .85, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Next"
+        background_color:"#00FFCE"
+        on_press:
+            root.page_view_next()
+<RecipeBookFive>
+    on_enter:(root.prep_recipe_list())
+    textview:textview
+    orientation:"vertical"
+    size:.1,.1
+    ScrollView:
+        canvas.before:
+            Color:
+                rgba:(0,0,0,1)
+            Rectangle:
+                pos:self.pos
+                size:self.size
+        Label:
+            markup:True
+            id:textview
+            background_color:"#00FFCE"
+            text:""""""
+            bold:True
+            #font_size:11
+            text_size:self.width,None
+            size_hint_y:None
+            height: max(self.texture_size[1],self.parent.height)
+            size_x:.5
+            do_scroll_y:True
+            do_scroll_x:True
+            valign:"top"
+            halign:"center"
+    Button:
+        size_hint:(.3,0.1)
+        post_hint:(1,1)
+        text:"Prev"
+        background_color:"#00FFCE"
+        on_press:
+            root.page_view_previous()
+    Button:
+        size_hint:(.2,0.1)
+        pos_hint: {"center_x": .4, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Back"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="ViewMP5"
+    Button:
+        size_hint:(.2,0.1)
+        pos_hint: {"center_x": .6, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Search"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="RecipeBookFiveSearch"
+    Button:
+        size_hint:(.3,0.1)
+        pos_hint: {"center_x": .85, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Next"
+        background_color:"#00FFCE"
+        on_press:
+            root.page_view_next()
+
+<RecipeBookFiveSearch>
+    textview:textview
+    search:search
+    orientation:"vertical"
+    size:.1,.1
+    ScrollView:
+        canvas.before:
+            Color:
+                rgba:(0,0,0,1)
+            Rectangle:
+                pos:self.pos
+                size:self.size
+        Label:
+            markup:True
+            id:textview
+            background_color:"#00FFCE"
+            text:""""""
+            bold:True
+            #font_size:11
+            text_size:self.width,None
+            size_hint_y:None
+            height: max(self.texture_size[1],self.parent.height)
+            size_x:.5
+            do_scroll_y:True
+            do_scroll_x:True
+            valign:"top"
+            halign:"center"
+    Button:
+        size_hint:(.3,0.1)
+        post_hint:(1,1)
+        text:"Back"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="ViewMP5"
+    TextInput:
+        id:search
+        size_hint:(.4,0.1)
+        pos_hint: {"center_x": .5, "center_y": .05}
+        multiline:False
+
+    Button:
+        size_hint:(.3,0.1)
+        pos_hint: {"center_x": .85, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Search"
+        background_color:"#00FFCE"
+        on_press:root.search_rec()
+
+<RecipeBookFiveSearchResults>
+    on_enter:(root.page_view_initial())
+    textview:textview
+    orientation:"vertical"
+    size:.1,.1
+    ScrollView:
+        canvas.before:
+            Color:
+                rgba:(0,0,0,1)
+            Rectangle:
+                pos:self.pos
+                size:self.size
+        Label:
+            markup:True
+            id:textview
+            background_color:"#00FFCE"
+            text:""""""
+            bold:True
+            #font_size:11
+            text_size:self.width,None
+            size_hint_y:None
+            height: max(self.texture_size[1],self.parent.height)
+            size_x:.5
+            do_scroll_y:True
+            do_scroll_x:True
+            valign:"top"
+            halign:"center"
+    Button:
+        size_hint:(.3,0.1)
+        post_hint:(1,1)
+        text:"Prev"
+        background_color:"#00FFCE"
+        on_press:
+            root.page_view_previous()
+    Button:
+        size_hint:(.2,0.1)
+        pos_hint: {"center_x": .4, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Back"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="ViewMP5"
+    Button:
+        size_hint:(.2,0.1)
+        pos_hint: {"center_x": .6, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Search"
+        background_color:"#00FFCE"
+        on_press:
+            root.clear_search()
+            root.manager.current="RecipeBookFiveSearch"
+    Button:
+        size_hint:(.3,0.1)
+        pos_hint: {"center_x": .85, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Next"
+        background_color:"#00FFCE"
+        on_press:
+            root.page_view_next()
+
+<MealCheck>
+    startweekinput:startweekinput
+    BoxLayout:
+        spacing:15
+        padding:100
+        orientation:"vertical"
+        size:root.width,root.height
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv3.jpg"
+                pos:self.pos
+                size:self.size
+
+
+        Label:
+            text:"View Which Meal Plan? "
+            bold:True
+            font_size_hint:(.1,.1)
+            size_hint:(1,1)
+            outline_width: 5
+            outline_colour: (0, 0, 0, 1)
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Save Slot 1"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+
+                root.manager.current="ViewMP1"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Save Slot 2"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+
+                root.manager.current="ViewMP2"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Save Slot 3"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+
+                root.manager.current="ViewMP3"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Save Slot 4"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+
+                root.manager.current="ViewMP4"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Save Slot 5"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+
+                root.manager.current="ViewMP5"
+        Button:
+            id:startweekinput
+            size_hint:(1,0.5)
+            text:"Back"
+            background_color:"#00FFCE"
+            on_press:
+                #allows change of transition
+
+                root.manager.current="StartScreen"
+
+<ViewMP1>
+    on_pre_enter:(root.rld_img())
+    orientation:"vertical"
+
+    ScrollView:
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv3.jpg"
+                pos:self.pos
+                size:self.size
+        do_scroll:True  # up and down
+
+        AsyncImage:
+            nocache: True
+            source:root.img_source
+            keep_ratio: True
+            size_hint_y:None
+            height: max(self.texture_size[1],self.parent.height)
+            size_x:.5
+            do_scroll_y:True
+            do_scroll_x:True
+    Button:
+        size_hint:(.5,0.1)
+        post_hint:(1,1)
+        text:"Back"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="MealCheck"
+    Button:
+        size_hint:(.5,0.1)
+        pos_hint: {"center_x": .75, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Recipe Book"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="RecipeBookOne"
+<ViewMP2>
+    on_pre_enter:(root.rld_img())
+    orientation:"vertical"
+
+    ScrollView:
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv3.jpg"
+                pos:self.pos
+                size:self.size
+        do_scroll:True  # up and down
+
+        AsyncImage:
+            nocache: True
+            source:root.img_source2
+            keep_ratio: True
+            size_hint_y:None
+            height: max(self.texture_size[1],self.parent.height)
+            size_x:.5
+            do_scroll_y:True
+            do_scroll_x:True
+    Button:
+        size_hint:(.5,0.1)
+        post_hint:(1,1)
+        text:"Back"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="MealCheck"
+    Button:
+        size_hint:(.5,0.1)
+        pos_hint: {"center_x": .75, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Recipe Book"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="RecipeBookTwo"
+<ViewMP3>
+    on_pre_enter:(root.rld_img())
+    orientation:"vertical"
+
+    ScrollView:
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv3.jpg"
+                pos:self.pos
+                size:self.size
+        do_scroll:True  # up and down
+
+        AsyncImage:
+            nocache: True
+            source:root.img_source3
+            keep_ratio: True
+            size_hint_y:None
+            height: max(self.texture_size[1],self.parent.height)
+            size_x:.5
+            do_scroll_y:True
+            do_scroll_x:True
+    Button:
+        size_hint:(.5,0.1)
+        post_hint:(1,1)
+        text:"Back"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="MealCheck"
+    Button:
+        size_hint:(.5,0.1)
+        pos_hint: {"center_x": .75, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Recipe Book"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="RecipeBookThree"
+<ViewMP4>
+    on_pre_enter:(root.rld_img())
+    orientation:"vertical"
+
+    ScrollView:
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv3.jpg"
+                pos:self.pos
+                size:self.size
+        do_scroll:True  # up and down
+
+        AsyncImage:
+            nocache: True
+            source:root.img_source4
+            keep_ratio: True
+            size_hint_y:None
+            height: max(self.texture_size[1],self.parent.height)
+            size_x:.5
+            do_scroll_y:True
+            do_scroll_x:True
+    Button:
+        size_hint:(.5,0.1)
+        post_hint:(1,1)
+        text:"Back"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="MealCheck"
+    Button:
+        size_hint:(.5,0.1)
+        pos_hint: {"center_x": .75, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Recipe Book"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="RecipeBookFour"
+<ViewMP5>
+    on_pre_enter:(root.rld_img())
+    orientation:"vertical"
+
+    ScrollView:
+        canvas.before:
+            Color:
+                rgba:(1,1,1,1)
+            Rectangle:
+                source:"fnv3.jpg"
+                pos:self.pos
+                size:self.size
+        do_scroll:True  # up and down
+
+        AsyncImage:
+            nocache: True
+            source:root.img_source5
+            keep_ratio: True
+            size_hint_y:None
+            height: max(self.texture_size[1],self.parent.height)
+            size_x:.5
+            do_scroll_y:True
+            do_scroll_x:True
+    Button:
+        size_hint:(.5,0.1)
+        post_hint:(1,1)
+        text:"Back"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="MealCheck"
+    Button:
+        size_hint:(.5,0.1)
+        pos_hint: {"center_x": .75, "center_y": .05}
+        #post_hint:(15,10)
+        text:"Recipe Book"
+        background_color:"#00FFCE"
+        on_press:
+            root.manager.current="RecipeBookFive"
+
+

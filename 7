@@ -1,0 +1,17 @@
+from cx_Freeze import setup, Executable
+
+# Dependencies are automatically detected, but it might need
+# fine tuning.
+build_options = {'packages': [], 'excludes': []}
+
+base = 'gui'
+
+executables = [
+    Executable('C:\\Users\\asura\\PycharmProjects\\Meal planner app\\.venv\\Meal Planner With Ui assembling.py', base=base, target_name = 'Mpbeta')
+]
+
+setup(name='mp',
+      version = '1.0',
+      description = 'mp',
+      options = {'build_exe': build_options},
+      executables = executables)
